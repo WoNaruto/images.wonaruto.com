@@ -1,0 +1,43 @@
+#tooltip {
+    position: absolute;
+    border: 1px solid #706c7a;
+    background: #efefef;
+    color: #000;
+    z-index: 999;
+    width: 250px;
+}
+
+#tooltip a {
+    text-decoration: none;
+    color: #706c7a;
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+}
+
+#tooltip a:hover, #tooltip a:focus, #tooltip a:active {
+    color: #898692;
+}
+
+.ttTrig {
+    cursor: progress;
+}
+
+#tooltip table.liste {
+    width: 100%;
+}
+
+#tooltip #ttClose a {
+    display: block;
+    padding: 3px;
+    margin: 5px 1px 1px 1px;
+    background-color: #dddddd;
+    text-align: center;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#tooltip #ttTitle {
+    margin: 1px;
+    background-color: #82a0b8;
+    color: white;
+    padding: 3px;
+}
