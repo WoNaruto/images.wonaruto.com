@@ -21,12 +21,15 @@ function ttInit(event, obj) {
 function ttTrig(event, obj) {
     var currentIdTooltip = getId(obj);
 
-    obj.className = obj.getAttribute('data-ttClasse') + ' ttTrig';
-
-    if (divExist) ttDisplay(currentIdTooltip, obj, event);
-    else callTimeout = setTimeout(function () {
+    if (divExist) {
         ttDisplay(currentIdTooltip, obj, event);
-    }, 500);
+    }
+    else {
+        obj.className = obj.getAttribute('data-ttClasse') + ' ttTrig';
+        callTimeout = setTimeout(function () {
+            ttDisplay(currentIdTooltip, obj, event);
+        }, 500);
+    }
 }
 
 function ttDisplay(idTooltip, obj, event) {
