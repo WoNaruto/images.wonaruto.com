@@ -1,0 +1,230 @@
+/***************************
+/* Remise à zéro 
+/***************************/
+
+html {   
+  font-size: 100%;
+} 
+
+body { 
+  margin: 0; 
+  padding: 5px; 
+  font-family: Arial, Helvetica, FreeSans, sans-serif; 
+  font-size: .8em;
+  color: black;  
+}
+
+
+/***************************
+/* Liens 
+/***************************/
+
+a {
+  text-decoration: none;
+  color: #244F78;
+}
+
+a:hover, a:active, a:focus {
+  color: #005998;
+}
+
+a.lien_fleche {
+    text-align: left;
+    font-weight: bold;
+    color : #65839F;
+    display: block;
+}
+
+a.lien_fleche:hover, a.lien_fleche:focus, a.lien_fleche:active {
+    color: #244F78;
+    background-color: #E2EBF3;
+}
+
+
+/***************************
+/* Utilisé pour les MP 
+/***************************/
+
+table.comments, table.liste {
+    width: 555px;
+}
+
+table.caracteristiques{
+    width: 140px;
+}
+
+table.liste h1, table.comments h1 {  
+  font-size: 1em;
+}
+
+table.liste td.bg-1, table.liste tr.bg-1,
+table.comments td.bg-1, table.comments tr.bg-1  {
+  background-color: #edeff4;
+}
+
+table.liste td.bg-3, table.liste tr.bg-3,
+table.comments td.bg-3, table.comments tr.bg-3  {
+    background-color: #d8dfea;
+}
+
+table.liste tr.bg-white,
+table.comments td.bg-white {
+    background-color: white;
+}
+
+table.liste td.small,
+table.comments td.small {
+  font-size: .8em;
+}
+
+table.liste td.left,
+table.comments td.left {
+    text-align: left;
+    vertical-align: top;
+}
+
+table.liste td.right,
+table.comments td.right {
+    text-align: right;
+    vertical-align: top;
+}
+
+table.liste td.center,
+table.comments td.center {
+    text-align: center;
+    vertical-align: top;
+}
+
+table.liste td.justify,
+table.comments td.justify {
+    text-align: justify;
+    vertical-align: top;
+}          
+  
+h1.titre, h2.titre, h3.titre {
+    font-family: Verdana, Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 1.1em;
+    color: #4c6d87;
+    font-weight: bold;
+}                               
+
+input, select {
+  background-color: #edeff4;
+  border: 1px solid rgb(14, 31, 91);
+  color: rgb(14, 31, 91);
+  font: bold 11px Verdana, Arial, Helvetica, FreeSans, sans-serif;  
+  padding: 2px;
+}
+
+.online {
+  font: bold .8em Arial, Verdana, Helvetica, FreeSans, sans-serif;
+  color: #339966;
+}
+
+.offline {
+  font-family: Arial, Verdana, Helvetica, FreeSans, sans-serif;
+  font-size: .8em;
+  color: #ff6666;
+}
+
+div.aff-err {
+  font-weight: bold;
+  color: red;            
+  background-color: #fad3d3; 
+  padding: 5px;
+  text-align: center;
+}
+
+div.aff-ok {             
+  font-weight: bold;
+  color: green;
+  background-color: #d8f2e9; 
+  padding: 5px;
+  text-align: center;
+} 
+
+img.dossier {
+  border: 1px solid #000000;
+  margin: 3px;
+}
+
+               
+.fb_style_button {
+        background-color: #3B5998;
+        border-color: rgb(14, 31, 91) rgb(14, 31, 91);
+        border-style: solid;
+        border-width: 1px;
+        color: #fff;
+        font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+        font-size: 11px;
+        margin: 0 2px;
+        padding: 2px 18px;
+}
+
+#fb-design {
+
+  width: 724px;
+
+}
+
+
+#fb-footer {
+
+  font-weight: bold; 
+  font-size: 11px; 
+  color: #EFEFEF; 
+  font-family: verdana,arial,sans-serif;
+
+}
+
+#fb-footer a {
+
+  color: white;
+
+}
+
+#fb-footer-left {
+
+  background-color: #627AAD; 
+  float: left; 
+  width: 228px; 
+  border-right: 1px solid #1D4088; 
+  padding: 5px 0;
+  text-align: center;
+  
+}
+
+#fb-footer-right {
+
+  background-color: #3B5998; 
+  float: left; 
+  width: 490px; 
+  padding: 5px 2px;
+  text-align: right;
+
+}
+
+#fb-header {
+
+  padding:0; 
+  font-size: 13px; 
+  height: 54px; 
+  background-color: #3B5998;
+  
+}
+
+#fb-header img {
+
+  border: 0;
+
+}
+
+#fb-content {
+
+  font-size: 12px; 
+  font-family: arial; 
+  width: 560px; 
+  margin: 20px auto; 
+  text-align: justify;
+  
+}

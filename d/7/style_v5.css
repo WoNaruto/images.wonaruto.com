@@ -1,0 +1,846 @@
+div#spacer {
+  clear: both;
+}
+
+div#copy {
+  margin-right: 10px;
+  margin-bottom: 2px;
+  text-align: right;
+}
+
+
+/* Fin du design */
+
+
+/* En ce qui concerne les unes */
+
+div.V5_une {
+
+  background-image: url('http://images.wonaruto.com/d/4/une.gif');
+  background-repeat: no-repeat;
+  width: 544px;
+  height: 126px;
+  position: relative;
+
+}
+
+div#texted div.V5_une a {
+  color: #FFFFFF;
+}
+
+div#texted div.V5_une a:hover, div#texted div.V5_une a:active, div#texted div.V5_une a:focus {
+  text-decoration: underline;
+}
+
+div.V5_une img.arts {
+  border: 1px solid #000000;
+  margin: 0 9px;
+}
+
+div.V5_une div.liens {
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 139px;
+  height: 120px;
+  overflow: hidden;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+}
+
+div.V5_une div.arts {
+  position: absolute;
+  top: 4px;
+  height: 102px;
+  left: 163px;
+  width: 371px;
+}
+
+div.V5_une div.lien {
+  position: absolute;
+  top: 110px;
+  right: 5px; color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+}
+
+div.V5_une div.description {
+  position: absolute;
+  top: 4px;
+  height: 102px;
+  left: 163px;
+  width: 371px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+div.V5_une div.lire {
+  position: absolute;
+  bottom: 20px;
+  right: 4px;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.V5_une div.lire a {
+  color: #000000;
+}
+
+div.V5_une div.tome {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  width: 133px;
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+}
+
+div.V5_une div.kishimoto {
+  position: absolute;
+  top: 4px;
+  height: 102px;
+  left: 163px;
+  width: 271px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+div.V5_une div.kishimoto_end {
+  position: absolute;
+  bottom: 20px;
+  right: 110px;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.V5_une div.kishimoto_end a {
+  color: #000000;
+}
+
+/* Fin des unes */
+
+
+/* En ce qui concerne les amis */
+
+div#texted  a.friends1 {
+  display: block;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 12px;
+  width: 155px;
+  text-indent: 2px;
+}
+
+div#texted  a.friends2 {
+  display: block;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 12px;
+  width: 155px;
+  text-indent: 2px;
+  background-color: #DBDCDF;
+}
+
+div#texted a.friends1:hover, div#texted a.friends1:active, div#texted a.friends1:focus, 
+div#texted a.friends2:hover, div#texted a.friends2:active, div#texted a.friends2:focus  {
+  background-color: #C8CBCF;
+  color: #FFFFFF;
+}
+
+/* Fin des amis */
+
+
+/* En ce qui concerne les titres */
+
+  #titre3 {
+    font-family : Verdana;
+    font-size : 13px;
+    color : #706C7A;
+    font-weight : bold;
+  }
+
+
+
+/* En ce qui concerne les float */
+
+  div#gd span#links {
+    float: left;
+    text-align: left;
+    width: 49%;
+  }
+  div#gd span#reichts {
+    float: right;
+    text-align: right;
+    width: 49%;
+  }
+
+  div#spacer {
+    clear: both;
+    font-size: 0;
+  }
+
+
+/* En ce qui concerne les membres */
+
+  #mclasse {
+    font-family : arial;
+    font-size : 10px;
+    color: #706C7A;
+  }
+
+  #mpseudo {
+    font-family: Arial;
+    font-size: 13px;
+    color: #504B5B;
+    font-weight: bold;
+  }
+
+  #mgrade {
+    font-family: Arial;
+    font-size: 13px;
+    color: #504B5B;
+  }
+
+
+
+/* En ce qui concerne les membres dans le menu */
+
+  div#mdmembrecadre {
+    width: 140px;
+    font-weight: normal;
+  }
+
+  div#mdmembre span#gauche {
+    float: left;
+    text-align: left;
+    width: 60px;
+    font-family : verdana;
+    font-size : 10px;
+    color: #504B5B;
+  }
+
+  div#mdmembre span#droite {
+    float: right;
+    text-align: right;
+    width: 65px;
+    font-family : verdana;
+    font-size : 10px;
+    color : #504B5B;
+  }
+
+
+
+
+/* En ce qui concerne les commentaires */
+
+  #online {
+    font-family: arial;
+    font-size: 10px;
+    color: #339966;
+    font-weight: bold;
+  }
+
+  #offline {
+    font-family: arial;
+    font-size: 10px;
+    color: #ff6666;
+  }
+
+  #commentaire {
+    font-family: verdana;
+    font-size : 11px;
+    color : #504B5B;
+    text-align: justify;
+  }
+
+  div#erreur_comment  {
+    text-align: center;
+    color: #FF0000;
+    font-weight: bold;
+  }
+
+  table.comments {
+    width: 555px;
+  }
+
+  table.comments td {
+    padding: 0 5px;
+    vertical-align: top;
+  }
+
+  td.comments-avatar {
+    width: 38px;
+  }
+
+  td.comments-avatar img {
+    border: 1px solid #000000;
+  }
+
+  td.comments-texte {
+    font-family: verdana;
+    font-size : 11px;
+    color : #000000;
+    text-align: justify;
+  }
+
+  td.comments-online {
+    text-align: right;
+  }
+
+  div.bar-HL {
+    background-repeat: no-repeat;
+    background-position: 3px 50%;
+    text-align: right;
+    padding-right: 2px;
+  }
+
+  table#bar-form {
+    width: 545px;
+  }
+
+  table#bar-form td {
+    padding: 0;
+    vertical-align: top;
+  }
+
+  table#bar-form td.avatar {
+    width: 69px;
+    text-align: right;
+  }
+
+
+/* En ce qui concerne les formulaires */
+
+   form.inscription {
+      margin-top: 10px;
+      border: 1px solid #706C7A;
+      padding: 10px;
+      width: 400px;
+   }
+
+
+
+/* En ce qui concerne les MPs */
+
+  div.MP_liste_titre {
+    width: 100%;
+    padding-top: 2px;
+    font-family : Verdana;
+    font-size : 13px;
+    color : #706C7A;
+    font-weight : bold;
+  }
+
+  .MP_liste {
+    font-family : Arial;
+    font-size : 11px;
+    color : #504B5B;
+    font-weight : bold;
+  }
+
+
+
+/* En ce qui concerne les jeux vidéos (utilisé un peu partotu) */
+
+  div#JV {
+    padding-left: 109px;
+    background-image: url(../images/jeuxvideo/index_4.jpg);
+    background-repeat: no-repeat;
+  }
+
+
+
+
+/* En ce qui concerne le contenu */
+
+  div.resumes{
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    padding-left: 95px;
+    background-repeat: no-repeat;
+  }
+
+
+  div.jutsu{
+    margin-top: 10px;
+    border-bottom: #706C7A 1px solid;
+    padding-left: 80px;
+    padding-bottom: 5px;
+    background-repeat: no-repeat;
+    height: 80px;
+  }
+
+  div.perso_lettre_2 {
+    background-color: #DBDCDF;
+  }
+
+  div.perso{
+    height: 90px;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+  }
+
+
+
+/* En ce qui concerne les fight */
+
+  form.fight {
+    width: 135px;
+    text-align: center;
+  }
+
+  table.fight {
+    margin-top: 10px;
+    font-size: 11px;
+    font-family: verdana;
+  }
+
+  span.fight {
+    font-size: 11px;
+    font-family: verdana;
+    font-weight: bold;
+    color: #504B5B;
+  }
+
+
+
+
+/* En ce qui concerne le bar */
+
+  img.bars {
+    border: 1px solid #000000;
+    margin: 5px;
+  }
+
+  div#bars-images {
+    text-align: center;
+  }
+  *html div#bars-images {
+    text-align: center;
+    float: left;
+  }
+  div#bars-texte {
+    margin: 5px;
+    background-color: #DBDCDF;
+    text-align: justify;
+    font-family : arial;
+    font-size : 10px;
+    color : #504B5B;
+    padding: 5px;
+  }
+
+  * html div#bars-texte {
+    margin: 5px;
+    background-color: #DBDCDF;
+    text-align: justify;
+    font-family : arial;
+    font-size : 10px;
+    color : #504B5B;
+    float: left;
+    height: 100px;
+    margin-right: 0;
+  }
+
+  div#bars-banned {
+    margin: 5px;
+    background-color: #DBDCDF;
+    text-align: justify;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    color: #706C7A;
+  }
+
+  span.bars-banned-list {
+    margin-left: 5px;
+    text-align: justify;
+    font-family : arial;
+    font-size : 10px;
+    color : #504B5B;
+  }
+
+
+
+
+/* En ce qui concerne l'espace art */
+
+  div.image_galerie {
+    float : left;
+    margin : 2px;
+    text-align : center;
+    background-color: #DBDCDF;
+    width: 24%;
+    font-size: 10px;
+    font-family: arial;
+  }
+
+  img.image_galerie {
+    border: 1px solid #000000;
+    margin: 2px;
+  }
+
+  div.galerie {
+    width: 95%;
+    align: right;
+  }
+
+  div#imageview {
+    width: 90%;
+    text-align : center;
+    background-color: #DBDCDF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-family: arial;
+  }
+
+
+  div#gd span.galerie_gauche {
+    float: left;
+    text-align: left;
+    width: 7%;
+  }
+  span.galerie_droite {
+    float: right;
+    text-align: justify;
+    width: 90%;
+  }
+
+
+
+
+/* En ce qui concerne la boutique */
+
+  div.boutique_objet_image {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+  }
+  *html div.boutique_objet_image {
+    width: 62px;
+    height: 62px;
+  }
+  div.boutique_objet_image img {
+    height: 50px;
+    width: 50px;
+    border: 0;
+  }
+
+  div.boutique_objet_texte {
+    margin-top: 5px;
+    text-align: left;
+    width: 90px;
+  }
+
+  div.boutique_objet {
+    float : left;
+    margin : 2px;
+    text-align : center;
+    background-color: #DBDCDF;
+    width: 19%;
+    font-size: 10px;
+    font-family: arial;
+  }
+
+
+
+/* Les trucs de mise en page réutilisés un peu partout */
+
+a.lien_fleche {
+    text-align: left;
+    font-weight: bold;
+    color : #A2A4A9;
+    display: block;
+}
+
+a.lien_fleche:hover, a.lien_fleche:focus, a.lien_fleche:active {
+    color : #706C7A;
+    background-color: DBDCDF;
+}
+
+
+  div.ML_div1 {
+    padding: 2px 0;
+    background-color: #EFEFEF;
+    }
+  div.ML_div2 {
+    padding: 2px 0;
+    background-color: #DBDCDF;
+  }
+
+
+  #menulogin {
+    font-family : Arial;
+    font-size : 11px;
+    color : #504B5B;
+    font-weight : bold;
+  }
+
+
+
+
+
+
+/* Les trucs random */
+
+#episodeanime {
+  font-family : Arial;
+  font-size : 12px;
+  color : #706C7A;
+  font-weight : bold;
+}
+
+div#espacemembre2 {
+  width: 80%;
+  background-color: #EFEFEF;
+  border: solid 1px #C8CBCF;
+  text-align: left;
+}
+
+div#soustitreEM2 {
+  font-family : Verdana;
+  font-size : 11px;
+  color : #C8CBCF;
+  font-weight : bold;
+  border-bottom: #C8CBCF solid 1px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+#blabla {
+  float: left;
+  width: 7%;
+  text-align: right;
+}
+
+
+
+/*
+
+
+
+     ARMES
+
+
+
+
+*/
+
+.armes_nb {
+
+  color: #706C7A;
+  font-size: 11px;
+  font-family: verdana;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS pour le contenu des dossiers 'n' co */
+
+div.spoil {
+}
+
+a.spoil {
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  background-color: #DBDCDF;
+}
+
+img.dossier {
+  border: 1px solid #000000;
+  margin: 3px;
+}
+
+div.dossier_intro {
+  font-style: italic;
+  text-align: center;
+}
+
+  table.class_liens_liste {
+    width: 555px;
+    font-size: 12px;
+  }
+
+  table.class_liens_liste td {
+    vertical-align: top;
+    padding-right: 5px;
+  }
+
+
+
+
+  table.caracteristiques {
+    width: 140px;
+  }
+
+
+  .caracteristiques {
+    font-size: 11px;
+  }
+  
+  
+  
+
+div#titre-cadre { /* maj */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family : Verdana;
+	padding: 0 6px;	
+    color : #706C7A;
+    font-weight : bold;
+    text-align: left;
+	background-color: #dddddd;
+	border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-top-right-radius: 5px;	
+	-webkit-border-bottom-right-radius: 5px;	
+	text-shadow: -1px 1px white;
+	height: 32px;
+	margin-left: -8px;
+	width: 100%;
+}
+
+div#titre-image { /* maj */
+	position: absolute;
+	left: -6px;
+	padding: 8px 8px 8px 40px;
+	background: transparent url(bg-titre-page.png) no-repeat left top;
+	height: 40px;
+}
+
+div#titre { /* maj */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size : 13px;
+    color : #706C7A;
+    font-weight : bold;
+}
+
+div#sstitre { /* maj */
+    padding: 2px 0;
+    margin-bottom: 5px;
+    font-family : Verdana, Arial, Helvetica, FreeSans, sans-serif;
+    font-size : 11px;
+    color : #706C7A;
+    font-weight : bold;
+    border-bottom: #dddddd 3px solid;
+}
+
+a#EMmenu { /* maj */ /* a supprimer */
+    display : block;
+	font-family: Verdana, Arial, Helvetica, FreeSans, sans-serif;
+	font-size: 11px;
+    font-weight : bold;
+    text-decoration : none;
+    color: #706C7A;
+	padding: 2px;
+}
+
+a#EMmenu:hover, a#EMmenu:active, a#EMmenu:focus { /* maj */ /* a supprimer*/
+    text-decoration : none;
+    color: #706C7A;
+    background-color: #DBDCDF;
+}
+
+div#stitre { /* maj */
+    padding: 1px 0;
+    margin-bottom: 5px;
+    font-family : Verdana, Arial, Helvetica, FreeSans, sans-serif;
+    font-size : 12px;
+    color : #706C7A;
+    font-weight : bold;
+    border-bottom: #dddddd 4px solid;
+}
+
+div#texted a#JV1 { /* maj */
+	display: block;
+    font-family: Verdana, Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    color : #706C7A;
+    padding: 2px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+  }
+div#texted a#JV1:hover, div#texted a#JV1:focus, div#texted a#JV1:active { /* maj*/
+    text-decoration : none;
+    color: white;
+    background-color: #C8CBCF;
+  }
+
+div#texted a#JV2 { /* maj */
+    display : block;
+    font-family: Verdana, Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    color : #706C7A;
+    padding: 2px;
+    background-color: #DBDCDF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+  }
+div#texted a#JV2:hover, div#texted a#JV2:focus, div#texted a#JV2:active{ /* maj */
+    text-decoration : none;
+    color: white;
+    background-color: #C8CBCF;
+  }
+  
+div#EMtop { /* maj */
+    border-bottom: 1px solid #706C7A;
+}
+
+div#pages_comment { /* maj */
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+    background-color: #898494;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+div#pages_comment a { /* maj */
+	color: white;
+}
+
+div#pages_comment a:hover, div#contenu  div#pages_comment a:focus, div#contenu div#pages_comment a:active { /* maj */
+	color: #484256;
+}
+
+div#pages_comment a.active, div#pages_comment a.active:hover, div#pages_comment a.active:focus, div#pages_comment a.active:active { /* maj */
+	color: #aca8b5;
+}
+
+div#signature { /* maj */
+    border-bottom: 1px solid #706C7A;
+    background-color: #DBDCDF;
+    text-align: right;
+	font-family: Arial, Verdana, Helvetica, FreeSans, sans-serif;
+    font-size : 10px;
+    color : #504B5B;
+}

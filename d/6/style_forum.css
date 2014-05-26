@@ -1,0 +1,418 @@
+/* *************************** SpinkBB ****************** */
+/*              SKIN GENERE PAR SPINKBB                   */
+/*    http://www.jsand.net/spinkbb                        */
+/* ********************************** SpinkBB *********** */
+
+/****************************************************************/
+/* 1. IMPORTED STYLESHEETS */
+/****************************************************************/
+
+/* Import the basic setup styles */
+@import url(style_forum_base.css);
+/* Import the colour scheme */
+@import url(style_forum_cs.css);   
+
+/****************************************************************/
+/* 2. TEXT SETTINGS */
+/****************************************************************/
+
+/* 2.1 This sets the default Font Group */
+
+.pun, .pun INPUT, .pun SELECT, .pun TEXTAREA, .pun OPTGROUP {
+    font-family: Verdana, Arial, Helvetica, FreeSans, sans-serif
+}
+
+.pun {
+  font-size: 1.1em; 
+  line-height: normal;
+  color: black;
+}
+
+
+
+
+/* Set font size for tables because IE requires it */
+.pun TABLE, .pun INPUT, .pun SELECT, .pun OPTGROUP, .pun TEXTAREA, DIV.postmsg  {FONT-SIZE: 11px}
+P.postedit {FONT-SIZE: 10px}
+
+/* 2.2 Set the font-size for preformatted text i.e in code boxes */
+
+.pun PRE {FONT-FAMILY: monaco, "Bitstream Vera Sans Mono", "Courier New", courier, monospace}
+
+/* 2.3 Font size for headers */
+
+.pun H1 {FONT-SIZE: 16px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: bold;}
+DIV.page, .tcl, .tcl2, .tc2, .tc3, .tcr, DIV.pagelink LI,  DIV.pagelink_post LI  {FONT-SIZE: 11px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: normal;}
+.pun H2, .pun H4 {FONT-SIZE: 9px}
+.blockpost H2 {FONT-SIZE: 11px}
+.pun H3 {FONT-SIZE: 12px}
+#brdtitle H1 {FONT-SIZE: 14px}
+
+/* 2.4 Larger text for particular items */
+
+DIV.blocktable H2, DIV.blocklast H2, DIV.messprev, DIV.result, DIV.messerror, DIV.ongletcat {FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: bold;}
+DIV.postmsg P {LINE-HEIGHT: 1.4; }
+DIV.postleft DT {FONT-SIZE: 13px}
+DIV.posttopright UL {FONT-SIZE: 10px}
+DIV.postfootright {FONT-SIZE: 10px}
+DIV.postlinksb, DIV.suscribe{FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: bold;}
+.byuser{FONT-SIZE: 11px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;}
+DIV.postmsg  {FONT-SIZE: 12px; }
+.usertitle  {FONT-SIZE: 11px}
+DIV.incqbox {FONT-SIZE: 11px}
+p.pagelink { font-size: 11px; }
+DIV.linkst {FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: bold;}
+DIV.modo, .colf, .colr, .colr2, .colf2, .clearb {FONT-SIZE: 11px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: bold;}
+DIV.pagelinkst, DIV.pagelinkbt, .postlink {FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: bold;}
+DIV.pagelinkst UL {FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; FONT-WEIGHT: bold;}
+DIV.pagelink H2 {FONT-SIZE: 11px; FONT-WEIGHT: bold;}
+DIV.bottom {FONT-SIZE: 12px}
+.pun PRE {FONT-SIZE: 1.2em}
+DIV.bottom{LINE-HEIGHT: 22px}
+
+/* 2.5 Bold text */
+
+DIV.postleft DT, DIV.postmsg H4, TD.tcl H3, DIV.forminfo H3, P.postlink, DIV.linkst LI, DIV.pagelinkst LI,
+DIV.linksb LI, DIV.postlinksb LI, .blockmenu LI, #brdtitle H1, .pun SPAN.warntext, .pun P.warntext {FONT-WEIGHT: bold}
+
+/****************************************************************/
+/* 3. LINKS */
+/****************************************************************/
+
+div#texted .pun a {
+  text-decoration: none;
+  color: #455671;
+}
+div#texted .pun a:hover, div#texted .pun a:active, div#texted .pun a:focus {
+  color: #899ab5;
+}
+
+/* 3.1 Remove underlining for main menu, post header links, post links and vertical menus */
+
+#brdmenu A:link, #brdmenu A:visited, .blockpost DT A:link, .blockpost DT A:visited, .blockpost  A:link,
+.blockpost H2 A:visited, .postlink A:link, .postlink A:visited, .posttopright A:link, .posttopright A:visited, .postfootright A:link, .postfootright A:visited,
+.blockmenu A:link, .blockmenu A:visited {
+text-decoration: none }
+
+div#texted h2 .onglet a,
+div#texted h2 .onglet a:hover, div#texted  h2 .onglet a:active, div#texted  h2 .onglet a:focus,
+div#texted div.pagelink h2 a,
+div#texted div.pagelink h2 a:hover, div#texted div.pagelink h2 a:active, div#texted div.pagelink h2 a:focus {
+  color: white;
+}
+
+/* 3.2 Underline on hover for links in headers and main menu */
+
+#brdmenu A:hover, .blockpost H2 A:hover {
+text-decoration: none;
+border-bottom: 0px solid #FFFFFE }
+
+/****************************************************************/
+/* 4. BORDER WIDTH AND STYLE */
+/****************************************************************/
+
+/* 4.1 By default borders are 1px solid */
+
+DIV.box, .pun TD, .pun TH, DIV.codebox, DIV.forminfo {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 0px 0px 0px 0px;
+}
+
+DIV.blockpost LABEL {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 10px 10px 10px 10px;
+}
+
+DIV.blockpost H2{
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 0px;
+                BORDER-COLOR: #a7bdcf;
+}
+
+DIV.roweven, DIV.rowodd {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 1px 0px 0px 0px;
+                BORDER-COLOR: #a7bdcf;
+}
+
+
+DIV.postmsg{
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 0px;
+}
+
+DIV.boxtable {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 0px 1px 1px 1px;
+                BORDER-COLOR: #a7bdcf;
+                BACKGROUND-COLOR: #FFFFFF
+}
+
+DIV.boxtable_post {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 0px 1px 1px 1px;
+                BORDER-COLOR: #a7bdcf;
+                BACKGROUND-COLOR: #E2EBF3
+}
+
+.pun TD{
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 1px 0px 0px 0px;
+                BORDER-COLOR: #a7bdcf;
+}
+
+.pun #bar-form td {
+  border: none;
+}
+
+.pun BLOCKQUOTE {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 1px 1px 1px 1px;
+}
+
+.nutella {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 1px;
+        BORDER-COLOR: #000000;
+}
+
+DIV.pagelink H2
+ {BORDER-WIDTH: 50px 60px 0px 6px;}
+
+/* 4.2 Special settings for the board header. */
+
+#brdheader DIV.box {BORDER-TOP-WIDTH: 4px}
+
+/* 4.3 Borders for table cells */
+
+.pun TH {
+        BORDER-BOTTOM: none;
+        BORDER-RIGHT: none
+}
+
+.pun .tcl {BORDER-LEFT: none}
+
+/* 4.4 Special setting for fieldsets to preserve IE defaults */
+
+DIV>FIELDSET {
+        BORDER-STYLE: solid;
+        BORDER-WIDTH: 1px 1px 1px 1px;
+}
+
+/****************************************************************/
+/* 5. VERTICAL AND PAGE SPACING */
+/****************************************************************/
+
+/* 5.1 Page margins */
+
+HTML, BODY {MARGIN: 0; PADDING: 0;                       
+                         }
+#punwrap {margin:0px}
+
+/* 5.2 Creates vertical space between main board elements (Margins) */
+
+DIV.blocktable, DIV.blocklast, DIV.block, DIV.blockform, DIV.block2col, #postreview {MARGIN-BOTTOM: 12px}
+#punindex DIV.blocktable  {MARGIN-BOTTOM: 6px}
+DIV.blocklast  {MARGIN-BOTTOM: 0px}
+DIV.blockpost H2 {MARGIN-TOP: -21px; MARGIN-bottom: -4px;}
+DIV.onglet {PADDING:  2px 0px 0px 0px;}
+.onglet, .ongletcat {PADDING:  4px 0px 0px 0px;}
+*html DIV.blockpost H2 {MARGIN-TOP: -18px; MARGIN-bottom: -2px;}
+*html DIV.onglet {PADDING:  0px 0px 0px 0px;}
+*html .onglet {PADDING:  0px 0px 0px 0px;}
+DIV.ongletcat {MARGIN-TOP: 2px;}
+*html DIV.ongletcat {MARGIN-TOP: 4px; MARGIN-bottom: -2px;}
+DIV.pagelink .conl{ MARGIN-TOP: -60px;}
+P, DIV.posttopright UL, DIV.posttopright DIV {MARGIN-TOP: -6px;}
+.discu H2 {MARGIN-TOP: -24px; MARGIN-bottom: -3px;}
+.blocktable H2, .blocklast H2 {MARGIN-TOP: 0px; MARGIN-bottom: -4px;}
+.pagelink H2 {MARGIN-TOP: -22px;}
+.postlinksb UL {MARGIN-TOP: -3px;}
+DIV.messprev {Height: 18px; PADDING:  2px 0px 0px 0px; BACKGROUND-COLOR: transparent; COLOR:  #FFFFFF; width: 185px}
+DIV.result {Height: 19px; PADDING:  2px 0px 0px 0px; BACKGROUND-COLOR: transparent; COLOR:  #FFFFFF; width: 185px}
+DIV.page {MARGIN-TOP: -23px;}
+DIV.colr2{MARGIN-TOP: 6px;}
+*html DIV.colr2{MARGIN-TOP: 4px;}
+DIV.postleft {MARGIN-BOTTOM: 6px;}
+div.postleft img { display: block; }
+DIV.suscribe {MARGIN-BOTTOM: -6px;}
+DIV.jump {MARGIN-TOP: 0px; MARGIN-RIGHT: 0px; PADDING-BOTTOM: 8px;}
+DIV.bottom UL{MARGIN-TOP: -8px; PADDING:  0;}
+*html DIV.bottom UL {MARGIN-TOP: -4px; PADDING:  3px 6px 6px 6px;}
+DIV.bottom {MARGIN-TOP: 4px;}
+*html DIV.bottom {MARGIN-TOP: -4px;}
+DIV.rowodd { MARGIN-TOP: 0px;}
+DIV.block2col DIV.blockform, DIV.block2col DIV.block {MARGIN-BOTTOM: 0px}
+
+/* 5.3 Remove space above breadcrumbs, postlinks and pagelinks with a negative top margin */
+
+DIV.linkst UL, DIV.linksb UL{MARGIN-TOP: 0px;
+                      PADDING-BOTTOM: 22px;}
+DIV.block              {MARGIN-TOP: 0px;
+                 PADDING-BOTTOM: 6px;
+                                 PADDING-TOP: 4px;}
+
+DIV.pagelinkst UL, DIV.modo LI{MARGIN-TOP: 0px;
+                            PADDING-BOTTOM: 8px;
+                            TEXT-ALIGN: right;}
+
+DIV.pagelinkbt UL {MARGIN-TOP: -20px;
+                 PADDING-BOTTOM: 6px;
+                                 TEXT-ALIGN: right;}
+
+
+
+/* 5.4 Put a 12px gap above the board information box in index because the category tables only
+have a 6px space beneath them */
+
+#brdstats {MARGIN-TOP: 12px}
+
+/****************************************************************/
+/* 6. SPACING AROUND CONTENT */
+/****************************************************************/
+
+/* 6.1 Default padding for main items */
+
+DIV.block DIV.inbox, DIV.blockmenu DIV.inbox,DIV.bottom {PADDING: 0px 6px}
+.pun P, .pun UL, .pun DL, DIV.blockmenu LI, .pun LABEL, #announce DIV.inbox DIV {PADDING: 3px 0}
+.pun H2 {PADDING: 4px 6px}
+DIV.inbox{MARGIN: 0px}
+
+/* 6.2 Special spacing for various elements */
+
+.pun H1 {PADDING: 3px 0px 0px 0}
+#brdtitle P {PADDING-TOP: 0px}
+DIV.blockpreview {PADDING: 8px 6px 3px 6px}
+DIV.linkst {PADDING: 8px 6px 3px 6px}
+DIV.pagelinkst, DIV.linksb {PADDING: 0px 6px 2px 6px}
+DIV.pagelinkbt {PADDING: 4px 6px 20px 6px}
+DIV.postlinksb, DIV.suscribe {PADDING: 0px 0px 0px 0px}
+#brdwelcome, #brdfooter DL A, DIV.blockmenu LI, DIV.rbox INPUT  {LINE-HEIGHT: 1.4em}
+#viewprofile DT, #viewprofile DD {PADDING: 0 3px; LINE-HEIGHT: 2em}
+
+/* 6.4 Create some horizontal spacing for various elements */
+
+#brdmenu LI, DIV.rbox INPUT, DIV.blockform P INPUT  {MARGIN-RIGHT: 12px}
+
+/****************************************************************/
+/* 7. SPACING FOR TABLES */
+/****************************************************************/
+
+.pun TH, .pun TD {PADDING: 4px 6px}
+.pun TD P {PADDING: 5px 0 0 0}
+
+/****************************************************************/
+/* 8. SPACING FOR POSTS */
+/****************************************************************/
+
+/* 8.1 Padding around left and right columns in viewtopic */
+
+DIV.postleft DL{PADDING: 0px}
+DIV.postright {PADDING: 20px 0px 20px 0px; text-align: justify;}
+DIV.postleft {PADDING: 32px 0px 20px 0px}
+
+
+/* 8.2 Extra spacing for poster contact details and avatar */
+
+DD.usercontacts, DD.postavatar {MARGIN-TOP: 5px}
+DD.postavatar {MARGIN-BOTTOM: 5px}
+
+/* 8.3 Extra top spacing for signatures and edited by */
+
+DIV.postsignature, DIV.postmsg P.postedit {PADDING-TOP: 15px}
+
+/* 8.4 Spacing for code and quote boxes */
+
+DIV.postmsg H4 {MARGIN-BOTTOM: 10px}
+.pun BLOCKQUOTE, DIV.codebox {MARGIN: 5px 15px 15px 15px; PADDING: 8px}
+
+/* 8.5 Padding for the action links and online indicator in viewtopic */
+
+.conl {PADDING: 0px 6px 6px 6px}
+DIV.postfootleft {PADDING: 0px 6px 6px 6px}
+DIV.postfootright {PADDING: 0px 0px 2px 6px}
+P, DIV.posttopright UL, DIV.posttopright DIV {PADDING: 0}
+DIV.postfootright UL, DIV.postfootright DIV{PADDING: 6px 6px 0px 6px}
+
+/* 8.6 This is the input on moderators multi-delete view */
+
+DIV.blockpost INPUT, DIV.blockpost LABEL {
+        DISPLAY: inline;
+                BACKGROUND-COLOR: #a7bdcf;
+}
+
+.submit INPUT {
+                BACKGROUND-COLOR: #a7bdcf;
+}
+
+
+P.multidelete {
+        PADDING-TOP: 15px;
+        PADDING-BOTTOM: 5px
+}
+
+/* 8.7 Make sure paragraphs in posts don't get any padding */
+
+DIV.postmsg P {PADDING: 6px 6px 2px 6px}
+
+DIV.boxtable_post {PADDING: 6px 6px 2px 6px}
+
+/****************************************************************/
+/* 9. SPECIAL SPACING FOR FORMS */
+/****************************************************************/
+
+/* 9.1 Padding around fieldsets */
+
+DIV.blockform FORM, DIV.fakeform {PADDING: 20px 20px 15px 20px}
+DIV.inform {PADDING-BOTTOM: 12px}
+
+/* 9.2 Padding inside fieldsets */
+
+.pun FIELDSET {PADDING: 0px 12px 0px 12px}
+DIV.infldset {PADDING: 9px 0px 12px 0}
+.pun LEGEND {PADDING: 0px 6px}
+
+/* 9.3 The information box at the top of the registration form and elsewhere */
+
+DIV.forminfo {
+        MARGIN-BOTTOM: 12px;
+        PADDING: 9px 10px
+}
+
+/* 9.4 BBCode help links in post forms */
+
+UL.bblinks LI {PADDING-RIGHT: 20px}
+
+UL.bblinks {PADDING-BOTTOM: 10px; PADDING-LEFT: 4px}
+
+/* 9.5 Horizontal positioning for the submit button on forms */
+
+DIV.blockform P INPUT {MARGIN-LEFT: 12px}
+
+/****************************************************************/
+/* 10. POST STATUS INDICATORS */
+/****************************************************************/
+
+/* 10.1 These are the post status indicators which appear at the left of some tables.
+.inew = new posts, .iredirect = redirect forums, .iclosed = closed topics and
+.isticky = sticky topics. By default only .inew is different from the default.*/
+
+DIV.icon {
+        FLOAT: left;
+            OVERFLOW: hidden;
+        MARGIN: 0px;
+        DISPLAY: block;
+        BORDER-WIDTH: 0px;
+        BORDER-STYLE: solid;
+                WIDTH: 17px;
+                HEIGHT: 15px;
+}
+
+DIV.searchposts DIV.icon {MARGIN-LEFT: 0}
+
+/* 10.2 Class .tclcon is a div inside the first column of tables with post indicators. The
+margin creates space for the post status indicator */
+
+TD DIV.tclcon {MARGIN-LEFT: 0px}
+
+.avatar {PADDING: 10px 12px 10px 12px}

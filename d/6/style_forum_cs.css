@@ -1,0 +1,278 @@
+/* **********************won ****************** */
+/*                    SKIN POUR WON-LE FORUM                   */
+
+/****************************************************************/
+/* 1. BACKGROUND AND TEXT COLOURS */
+/****************************************************************/
+
+/* 1.1 Default background colour and text colour */
+
+BODY {BACKGROUND-COLOR: #FFFFFD}
+
+a:link,a:active,a:visited { text-decoration: none; }
+
+.pun {COLOR: transparent;}
+.pseudo {COLOR: #000000;}
+.ava {border: 1px solid #000000;}
+.pun H1 {COLOR: #455671}
+DIV.page {COLOR: #000000}
+DIV.linkst, DIV.pagelinkst, .postedit {COLOR: #455671}
+
+.pun INPUT, .pun SELECT, .pun TEXTAREA {BACKGROUND-COLOR: #E2EBF3}
+
+background { 
+  background-color: #e2ebf4;
+}
+
+
+
+.pun BLOCKQUOTE, DIV.codebox, #adminconsole FIELDSET TH, .rowodd, .roweven {BACKGROUND-COLOR: #CDDEF9}
+DIV.roweven, .roweven {BACKGROUND-COLOR: #E2EBF3}
+DIV.rowodd, .rowodd {BACKGROUND-COLOR: #FFFFFF}
+#adminconsole TD, #adminconsole TH {BORDER-COLOR: #CDDEF9}
+
+/* 1. 2 Darker background colours */
+
+TD.tcmod, #postpreview, #viewprofile DD, DIV.forminfo,
+#adminconsole FIELDSET TD, DIV.blockmenu DIV.box, #adstats DD {BACKGROUND-COLOR: #BCCDE8}
+
+.tc2, .tc3, .tcl, .tcl2, .tclcon, .byuser {
+    PADDING: 0px;                                   
+        MARGIN: 0px;
+    color: #000000;
+    }
+
+/* 1.3 Main headers and navigation bar background and text colour */
+
+.pun H2, #brdmenu { COLOR: #FFFFFF}
+.bottom { color: #455671; }
+
+/* 1.4 Table header rows */
+
+.pun TH {BACKGROUND-COLOR: #ABBCD7}
+
+/* 1.5 Fieldset legend text colour */
+
+.pun LEGEND {COLOR: #455671}
+
+/* 1.6 Highlighted text for various items */
+
+.pun DIV.blockmenu LI.isactive A, #posterror LI STRONG {COLOR: #333}
+
+/****************************************************************/
+/* 2. POST BACKGROUNDS AND TEXT */
+/****************************************************************/
+
+/* 2.1 This is the setup for posts. */
+
+DIV.blockpost DIV.box,  DIV.blockpreview DIV.box, DIV.inbox, DIV.box, DIV.pagelink, DIV.postright, DIV.postfootright, DIV.intd, DIV.icon, DIV.inew {BACKGROUND-COLOR: transparent;}
+DIV.postright, DIV.postfootright, DIV.posttopright {BACKGROUND-COLOR: transparent; BORDER-LEFT-COLOR: transparent;}
+DIV.postleft, DIV.postfootleft, DIV.blockpost_prev, DIV.onglet_prev, DIV.messprev, DIV.result, .pun TABLE {BACKGROUND-COLOR: transparent;}
+DIV.postleft, DIV.postfootleft, DIV.blockpost_prev  {BACKGROUND-COLOR: transparent; }
+DIV.blockpost LABEL {BACKGROUND-COLOR: #000000; }
+
+/* 2.2 Background for post headers and text colour for post numbers in viewtopic */
+
+.icon           {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/folder.gif);        
+              background-repeat: no-repeat;
+              background-position: top left;
+        BACKGROUND-COLOR: transparent;
+        }        
+        
+.inew     {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/folder_new.gif);
+              background-repeat: no-repeat;
+              background-position: top left;
+        BACKGROUND-COLOR: transparent;
+        }
+        
+DIV.cat_bottom   {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/cat-bottom.gif);        
+              background-repeat: no-repeat;
+              background-position: top left;
+        BACKGROUND-COLOR: transparent;
+        }
+        
+DIV.who                {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/who-top.gif);        
+              background-repeat: no-repeat;
+              background-position: bottom left;
+        BACKGROUND-COLOR: transparent;
+        }
+            
+DIV.blocklast H2{
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet_last.gif);
+              background-repeat: no-repeat;
+              background-position: left;
+        BACKGROUND-COLOR: transparent;
+        }
+        
+DIV.last                {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/last-top.gif);        
+              background-repeat: no-repeat;
+              background-position: bottom left;
+        BACKGROUND-COLOR: transparent;
+        }
+        
+DIV.whobt                {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/who-bottom.gif);        
+              background-repeat: no-repeat;
+              background-position: top left;
+        BACKGROUND-COLOR: transparent;
+        }        
+
+DIV.pagelinkst  {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/boardtitle.png);
+              background-repeat: no-repeat;
+              background-position: top left;
+        BACKGROUND-COLOR: transparent;
+        }
+        
+DIV.pagelinkbt  {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/boardtitle-bt.png);
+              background-repeat: no-repeat;
+              background-position: top left;
+        BACKGROUND-COLOR: transparent;
+        }        
+
+DIV.blockpost H2{
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet.gif);
+              background-repeat: no-repeat;
+              background-position: left;
+        BACKGROUND-COLOR: transparent;
+        }
+        
+DIV.blocktable H2{
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet_cat.gif);
+              background-repeat: no-repeat;
+              background-position: left;
+        BACKGROUND-COLOR: transparent;
+        }
+
+DIV.error {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet2.gif);
+              background-repeat: no-repeat;
+              background-position: bottom left;
+        BACKGROUND-COLOR: transparent;
+                BORDER-STYLE: solid;
+                BORDER-WIDTH: 0px 0px 1px 0px;
+            BORDER-COLOR: #a7bdcf;
+        }
+        
+DIV.discu H2{
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet3.gif);
+              background-repeat: no-repeat;
+              background-position: left;
+        BACKGROUND-COLOR: transparent;
+        }        
+        
+DIV.onglet_prev       {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet_prev.gif);
+              background-repeat: no-repeat;
+              background-position: bottom left;
+        BACKGROUND-COLOR: transparent;
+                BORDER-STYLE: solid;
+                BORDER-WIDTH: 0px 0px 1px 0px;
+            BORDER-COLOR: #a7bdcf;
+        }  
+
+DIV.onglet_result       {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet_prev.gif);
+              background-repeat: no-repeat;
+              background-position: bottom left;
+        BACKGROUND-COLOR: transparent;
+                BORDER-WIDTH: 0px;
+        }          
+        
+DIV.pagelink H2 {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/onglet.gif);
+              background-repeat: no-repeat;
+              background-position: bottom left;
+        BACKGROUND-COLOR: transparent;
+        }
+        
+.bottom               {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/border-bottom.png);
+              background-repeat: no-repeat;
+              background-position: top left;
+        BACKGROUND-COLOR: transparent;
+        }  
+
+*html .bottom       {
+                background-image: url(http://images.wonaruto.com/d/6/img-forum/border-bottom.png);
+              background-repeat: no-repeat;
+              background-position: center left;
+        BACKGROUND-COLOR: transparent;
+        }        
+        
+DIV.blockpost H2 SPAN.conr {COLOR: #9AABC6}
+
+/* 2.3 This is the line above the signature in posts. Colour and background should be the same */
+
+.pun HR {BACKGROUND-COLOR: #455671; COLOR: #455671}
+
+/****************************************************************/
+/* 3. BORDER COLOURS */
+/****************************************************************/
+
+/* 3.1 All external borders */
+
+DIV.box {BORDER-COLOR: #a7bdcf}
+DIV.online {BACKGROUND-COLOR: #d1dce5; PADDING:  0;}
+
+/* 3.2 Makes the top border of posts match the colour used for post headers */
+
+DIV.blockpost DIV.box {BORDER-COLOR: #a7bdcf #a7bdcf #a7bdcf}
+
+/* 3.3 Table internal borders. By default TH is same as background so border is invisible */
+
+.pun TD {BORDER-COLOR: #9AABC6}
+.pun TH {BORDER-COLOR: #ABBCD7}
+.longinput {BORDER-COLOR: #9AABC6}
+
+/* 3.4 Creates the inset border for quote boxes, code boxes and form info boxes */
+
+DIV.codebox, DIV.forminfo, DIV.blockpost LABEL {BORDER-COLOR: #ACA899 #FFF #FFF #ACA899}
+.pun BLOCKQUOTE {BORDER-COLOR: #65839f; BACKGROUND-COLOR: #d1dce5;}
+
+/* 3.5 Gecko's default fieldset borders are really nasty so this gives them a colour
+without interferring with IE's rather nice default */
+
+.pun DIV>FIELDSET {BORDER-COLOR: #ACA899}
+
+/****************************************************************/
+/* 4. LINK COLOURS */
+/****************************************************************/
+
+/* 4.1 This is the default for all links */
+
+DIV.pagelinkst UL A:link, DIV.pagelinkst UL A:visited {COLOR: #65839f; text-decoration: none;}
+DIV.pagelinkbt UL A:hover, DIV.pagelinkst UL A:hover {COLOR: #899AB5; text-decoration: none;}
+
+/* 4.2 This is the colour for links in header rows and the navigation bar */
+
+.pun H2 A:link, .pun H2 A:visited, #brdmenu A:link, #brdmenu A:visited {text-decoration: none; COLOR: #FFFFFF}
+.pun H2 A:hover, #brdmenu A:hover {COLOR: #FFFFFE; text-decoration: none;}
+a.onglet, a.onglet_cat {text-decoration: none; COLOR: #FFFFFF}
+
+/* 4.3 This is for closed topics and "hot" links */
+
+.postfootright, .posttopright, .posttopright A:link, .posttopright A:visited{COLOR: #244F78; text-decoration: none;}
+TR.iclosed TD.tcl A:link, TR.iclosed TD.tcl A:visited {COLOR: #888; text-decoration: none;}
+LI.postreport A:hover, TR.iclosed TD.tcl A:hover {COLOR: #AAA; text-decoration: none;}
+LI.maintenancelink A:link, LI.maintenancelink A:visited {COLOR: #B42000; text-decoration: none;}
+LI.maintenancelink A:hover {COLOR: #B42000; text-decoration: none;}
+
+/****************************************************************/
+/* 5. POST STATUS INDICATORS */
+/****************************************************************/
+
+/* These are the post status indicators which appear at the left of some tables.
+.inew = new posts, .iredirect = redirect forums, .iclosed = closed topics and
+.isticky = sticky topics. The default is "icon". By default only .inew is different.*/
+
+DIV.icon, DIV.folder {BORDER-COLOR: transparent;}
+TR.iredirect DIV.icon {BORDER-COLOR: transparent;}
+DIV.inew {BORDER-COLOR: #9AABC6 #7889A4 #677893 #7889A4}
+

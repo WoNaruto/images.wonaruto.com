@@ -1,0 +1,434 @@
+/****************************************************************/
+/* 1. INITIAL SETTINGS */
+/****************************************************************/
+
+.pun TABLE, .pun DIV, .pun FORM, .pun P, .pun H1, .pun H2, .pun H3,
+.pun H4, .pun PRE, .pun BLOCKQUOTE, .pun UL, .pun OL, .pun LI, .pun DL,
+.pun DT, .pun DD, .pun TH, .pun TD, .pun FIELDSET, .pun IMG {
+  MARGIN: 0px;
+  PADDING: 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+DIV.blocktable H2, DIV.blocklast H2, DIV.blocktable H5  {
+    WIDTH: 144px;
+  HEIGHT: 22px;
+    PADDING: 4px 0px 0px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+.ongletcat  {
+    WIDTH: 144px;
+  HEIGHT: 22px;
+    PADDING: 4px 0px 0px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+DIV.blockpost H2  {
+  POSITION: absolute;
+    WIDTH: 152px;
+  HEIGHT: 20px;
+    PADDING: 4px 0px 0px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+.onglet  {
+  POSITION: absolute;
+  WIDTH: 152px;
+  HEIGHT: 20px;
+    PADDING: 4px 0px 0px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+DIV.discu H2  {
+    WIDTH: 192px;
+  HEIGHT: 22px;
+    PADDING: 4px 0px 0px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+.ongletdiscu  {
+    WIDTH: 192px;
+  HEIGHT: 22px;
+    PADDING: 4px 0px 0px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+DIV.messerror  {
+     COLOR:  #FFFFFF;
+   WIDTH: 132px;
+    PADDING: 4px 0px 2px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+DIV.pagelink H2  {
+    POSITION: absolute;
+    WIDTH: 152px;
+  HEIGHT: 20px;
+    PADDING: 4px 0px 0px 0px;
+  FONT-WEIGHT: normal;
+  LIST-STYLE: none;
+}
+
+.pun IMG {BORDER: none}
+
+img.postimg { border: 1px solid #000000; }
+
+.pun INPUT, .pun SELECT, .pun TEXTAREA, .pun OPTGROUP {MARGIN: 0}
+
+/****************************************************************/
+/* 2. STRUCTURAL SETTINGS - VERY IMPORTANT - DO NOT CHANGE */
+/****************************************************************/
+
+/* 2.1 Clearing floats and invisible items */
+.pun .clearer, .pun .nosize {
+  HEIGHT: 0;
+  WIDTH: 0;
+  LINE-HEIGHT: 0;
+  FONT-SIZE: 0;
+  OVERFLOW: hidden
+}
+
+.pun .clearer, .pun .clearb {CLEAR: both}
+.pun .nosize {POSITION: absolute; LEFT: -10000px}
+
+/* 2.2 Overflow settings for posts */
+
+DIV.blockpost DIV.box, DIV.blockpreview DIV.box, DIV.postleft, DIV.postsignature, DIV.postmsg {OVERFLOW: hidden}
+
+/****************************************************************/
+/* 3. BUG FIXES - VERY IMPORTANT - DO NOT CHANGE */
+/****************************************************************/
+
+/* 3.1 This attempts to eliminate rounding errors in Gecko browsers. */
+
+DIV>DIV>DIV.postfootleft DIV>DIV>DIV.postfootright {PADDING-TOP: 1px; MARGIN-TOP: -1px}
+
+/* 3.2 This is only visible to IE6 Windows and cures various bugs. Do not alter comments */
+
+/* Begin IE6Win Fix \*/
+* HTML .inbox, * HTML .inform, * HTML .pun, * HTML .intd, * HTML .tclcon {HEIGHT: 1px}
+* HTML .inbox DIV.postmsg {WIDTH: 98%}
+/* End of IE6Win Fix */
+
+/* 3.3 This is the equivelant of 3.2 but for IE7. It is visible to other browsers
+but does no harm */
+
+/*Begin IE7Win Fix */
+.pun, .pun .inbox, .pun .inform, .pun .intd, .pun .tclcon {min-height: 1px}
+/* End of IE7Win Fix */
+
+/****************************************************************/
+/* 4. HIDDEN ELEMENTS */
+/****************************************************************/
+
+/* These are hidden in normal display. Add comments to make them visible */
+
+#brdfooter H2, #brdstats H2, #brdstats .conl DT, #brdstats .conr DT,
+#modcontrols DT, #searchlinks DT, DIV.postright H3 {
+  POSITION: absolute;
+  DISPLAY: block;
+  OVERFLOW: hidden;
+  WIDTH: 1em;
+  LEFT: -999em
+}
+
+/****************************************************************/
+/* 5. BOX CONTAINERS AND FLOATS */
+/****************************************************************/
+
+/* 5.1. Setup all left and right content using floats. */  
+
+
+.conr, .colr, .colr2 {
+  FLOAT: right;
+  TEXT-ALIGN: right;
+  CLEAR: right;
+  WIDTH: 40%;
+  background-color: transparent;
+}
+
+.colr, .colr2, .colf2, .clearb {color:  #455671;}
+
+
+
+.conl {
+  FLOAT: right;
+  WIDTH: 55%;
+  OVERFLOW: hidden;
+  WHITE-SPACE: nowrap
+}
+
+.colf {
+  FLOAT: left;
+  WIDTH: 55%;
+  WHITE-SPACE: nowrap;
+  color: #455671;
+}
+
+.modo {
+  FLOAT: left;
+  WIDTH: 55%;
+  OVERFLOW: hidden;
+  WHITE-SPACE: nowrap
+}
+
+LABEL.col {
+  FLOAT: left;
+  OVERFLOW: hidden;
+  WHITE-SPACE: nowrap;
+  WIDTH: auto;
+  OVERFLOW: visible;
+  MARGIN-RIGHT: 10px;
+}
+
+.sujet {  COLOR: #706c7a;}
+.envoyer {padding: 2px 25px 2px 25px;}
+.preview {padding: 2px 0px 2px 0px;}
+
+/* 5.2 Set up page numbering and posts links */
+
+
+
+DIV.linkst .conl, DIV.pagelinkst .conl, DIV.linksb .conl, DIV.postlinksb .conl {WIDTH:460px}
+
+
+DIV.linkst .conr, DIV.pagelinkst .conr, DIV.linksb .conr, DIV.postlinksb .conr {WIDTH:200px}
+
+FORM DIV.linksb .conr {WIDTH: 360px}
+         
+.postlink {TEXT-ALIGN: right;}
+DIV.pagelink LI{DISPLAY: inline; MARGIN-BOTTOM: -60px;}
+DIV.pagelink {MARGIN-BOTTOM: 0px; PADDING:0;}
+DIV.pagelink_post {MARGIN-TOP: -18px; PADDING:0;}
+DIV.pagelink_post LI{DISPLAY: inline; MARGIN: 0; PADDING:0;}
+
+/* 5.3 Keep breadcrumbs from shifting to the right when wrapping */
+
+.linksb UL {MARGIN-LEFT: 200px}
+.linkst UL, .pagelinkst UL {MARGIN-LEFT: 0px}
+.postlinksb UL {MARGIN-LEFT: 0px}
+
+/* 5.4 Settings for Profile and Admin interface.*/
+
+DIV.block2col {PADDING-BOTTOM: 1px}
+
+DIV.block2col DIV.blockform, DIV.block2col DIV.block, #viewprofile DD {MARGIN-LEFT: 160px}
+
+DIV.blockmenu, #viewprofile DT {
+  FLOAT:left;
+  WIDTH: 140px
+}
+
+#profileavatar IMG {
+  FLOAT: right;
+  MARGIN-LEFT: 6px
+}
+
+#viewprofile DL {FLOAT: left; WIDTH: 100%; OVERFLOW: hidden}
+
+/****************************************************************/
+/* 6. TABLE SETUP */
+/****************************************************************/
+
+/* 6.1 Table Basic Setup */
+
+.pun TABLE {WIDTH: 100%;}
+
+/* 6.2 Fixed Table Setup */
+
+#punindex TABLE, #vf TABLE {TABLE-LAYOUT: fixed}
+
+DIV.blockpost_prev {TEXT-ALIGN: left; WIDTH: 100%;}
+
+.tcl {TEXT-ALIGN: left; WIDTH: 52%;}
+.tcl2 {TEXT-ALIGN: left; WIDTH: 60%;}
+
+.tc1 {TEXT-ALIGN: left; WIDTH: 4%;}
+
+.tc2, .tc3, .tcmod {WIDTH: 9%; TEXT-ALIGN: center}
+
+.tcr {WIDTH: 32%; TEXT-ALIGN: right;}
+
+tr.topic-liste { height: 36px; }
+
+#punsearch #vf .tcl, #punmoderate #vf .tcl {WIDTH: 41%}
+
+#punsearch #vf .tc2 {WIDTH: 18%; TEXT-ALIGN: left}
+
+.tcl, .tcl2, .tcr {OVERFLOW: HIDDEN}
+
+/* 6.3 Other Table Setup */
+
+#users1 .tcl {WIDTH: 40%}
+
+#users1 .tcr {WIDTH: 25%}
+
+#users1 .tc2 {WIDTH: 25%; TEXT-ALIGN: left}
+
+#users1 .tc3 {WIDTH: 10%; TEXT-ALIGN: center}
+
+#debug .tcr {WIDTH: 85%; WHITE-SPACE: normal}
+
+#punindex TD.tcr SPAN.byuser {DISPLAY: block}
+
+/****************************************************************/
+/* 7. VIEWTOPIC SETUP */
+/****************************************************************/
+
+/* 7.1 This is the basic structure. */
+
+
+DIV.postleft, DIV.postfootleft {
+  FLOAT:left;
+  WIDTH: 152px;
+  OVERFLOW: hidden;
+  POSITION: relative;
+}
+  
+DIV.postright, DIV.postfootright, DIV.posttopright {
+  BORDER-LEFT-WIDTH: 0px;
+  BORDER-LEFT-STYLE: solid;
+}
+
+div#postreview div.postright { float: right; }
+
+
+DIV.posttopright, DIV.postfootright, P.multidelete {TEXT-ALIGN: right}
+.conl {TEXT-ALIGN: right}
+.colf {TEXT-ALIGN: left}
+
+DIV.blockpost>DIV>DIV.inbox {PADDING-BOTTOM: 1px}
+
+/* 7.3 This is the div which actually contains the post and is inside .postright */
+
+DIV.postmsg {WIDTH:100%}
+div#postreview div.postmsg { width: 560px; }
+
+/* 7.4 These items control overflow and scrolling within posts. */
+
+DIV.incqbox {WIDTH: 100%; OVERFLOW: hidden}
+DIV.scrollbox {WIDTH: 100%; OVERFLOW: auto}
+IMG.postimg {max-width: 100%}
+A .postimg {max-width: 100%}
+
+/* 7.5 Turn off the poster information column for preview */
+
+#postpreview DIV.postright {BORDER-LEFT: none}
+
+DIV.checkboxl {width: 98%; padding: 5px; border: 0px;  BACKGROUND-COLOR: #d1dce5;}
+.checkbox {padding: 0px; margin: 0; border: 0px; background-color: transparent;}
+.submit {background-color: #d1dce5; BORDER-COLOR: #9AABC6}
+
+/* 7.6 Create the horizontal line above signatures */
+
+DIV.postsignature HR {
+  MARGIN-LEFT: 0px;
+  WIDTH: 200px;
+  TEXT-ALIGN: left;
+  HEIGHT: 0px;
+  BORDER:none
+}
+
+
+DIV.jump {
+  MARGIN-LEFT: 0px;
+  WIDTH: auto;
+  TEXT-ALIGN: left;
+  BORDER:none
+}
+
+DIV.suscribe {
+  MARGIN-LEFT: 0px;
+  WIDTH: 100%;
+  TEXT-ALIGN: right;
+  HEIGHT: 0px;
+  BORDER:none
+}
+
+
+
+/* 7.7 Maximum height for search results as posts. Position go to post link */
+
+DIV.searchposts DIV.postmsg {HEIGHT: 22px}
+DIV.searchposts DD P {PADDING-TOP: 6px}
+
+/* 7.8 Class for bbcode [u] */
+
+SPAN.bbu {TEXT-DECORATION: underline}
+
+/****************************************************************/
+/* 8. LISTS SPECIAL SETTINGS */
+/****************************************************************/
+
+/* 8.1 Horizontal display of online list, main navigation menu and breadcrumbs */
+
+#onlinelist DD, #onlinelist DT, #brdmenu LI, DIV.pagelinkst LI, DIV.modo LI, DIV.linkst LI,
+DIV.posttopright LI, DIV.postfootright LI, UL.bblinks LI {
+  DISPLAY: inline;
+  HEIGHT: 0
+}
+DIV.linksb LI, DIV.postlinksb LI, DIV.bottom LI {
+  DISPLAY: inline;
+}
+
+/* 8.2 Turn on square icon for posterror list */
+
+#posterror UL LI {LIST-STYLE: square inside}
+
+/* 8.3 Right alignment of descriptions in ordinary member view of other members profiles */
+
+#viewprofile DT {TEXT-ALIGN: right}
+
+/****************************************************************/
+/* 9. FORM SETTINGS */
+/****************************************************************/
+
+/* 9.1 Makes textareas and long text inputs shrink with page */
+
+DIV.txtarea {WIDTH: 98%; MARGIN-LEFT: 10px}
+
+ DIV.txtarea TEXTAREA { width: 98%; }
+
+.pun LABEL {DISPLAY: block}
+
+#qjump SELECT {WIDTH: 50%}
+
+.pun textarea.textarea-forum {
+  background-color: white; 
+  color: black; 
+  font-weight: normal; 
+  width: 684px; 
+  height: 200px;
+}
+
+.pun input.input-forum {
+  background-color: white; 
+  color: black; 
+  font-weight: normal; 
+  width: 684px; 
+}
+  
+
+/****************************************************************/
+/* 10. HELP FILES AND MISC. */
+/****************************************************************/
+
+/* 10.1 Put some space between sections of the help file */
+
+#helpfile H2 {MARGIN-TOP: 12px}
+
+/* 10.2 Internal padding */
+
+#helpfile DIV.box {PADDING: 10px}
+
+/* 10.3 Other templates */
+
+#punredirect DIV.block, #punmaint DIV.block {MARGIN: 50px 20% 12px 20%}

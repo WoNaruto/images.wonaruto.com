@@ -1,0 +1,163 @@
+div#ruban div#navigation ul li a:hover, div#ruban div#navigation ul li a:focus, div#ruban div#navigation ul li a:active {
+  display: block;
+  padding: 0 15px 0 0;
+  margin-top: 0;
+  background: #88a6be url(bg-menu-nav-hover-droite.gif) no-repeat right;
+}
+
+div#ruban div#navigation ul li.nf a:hover, div#ruban div#navigation ul li.nf a:focus, div#ruban div#navigation ul li.nf a:active {
+  background: #88a6be url(bg-menu-nav-droite.gif) no-repeat right;
+}
+
+div#ruban div#navigation ul li a:hover  strong, div#ruban div#navigation ul li a:focus strong, div#ruban div#navigation ul li a:active  strong   {
+  display: block;
+  background: transparent url(bg-menu-nav-hover-gauche.gif) no-repeat left;
+  padding: 4px 0 4px 15px;
+  margin: 0;
+}
+
+div#ruban div#navigation ul li a.active {
+  color: #7395b0;
+  display: block;
+  margin-top: 0;
+  padding: 0 15px 0 0;
+  background: #dfe9f1 url(bg-menu-nav-active-droite.gif) no-repeat right;
+}
+
+div#ruban div#navigation ul li a.active strong,
+div#ruban div#navigation ul li a.active:hover strong, div#ruban div#navigation ul li a.active:focus strong, div#ruban div#navigation ul li a.active:active strong {
+  display: block;
+  background: transparent url(bg-menu-nav-active-gauche.gif) no-repeat left;
+  padding: 4px 0 4px 15px;
+  margin: 0;
+}
+
+div#ruban div#navigation ul li a.active:hover, div#ruban div#navigation ul li a.active:focus, div#ruban div#navigation ul li a.active:active {
+  color: #7395b0;
+  display: block;
+  margin-top: 0px;
+  padding: 0 15px 0 0;
+  background: #dfe9f1 url(bg-menu-nav-active-hover-droite.gif) no-repeat right;
+}
+
+div#ruban div#navigation ul li.nf a.active:hover, div#ruban div#navigation ul li.nf a.active:focus, div#ruban div#navigation ul li.nf a.active:active {
+  background: #dfe9f1 url(bg-menu-nav-active-droite.gif) no-repeat right;
+}
+
+div#ruban div#navigation ul li a.onclick strong,
+div#ruban div#navigation ul li a.onclick:hover strong, div#ruban div#navigation ul li a.onclick:focus strong, div#ruban div#navigation ul li a.onclick:active strong {
+  display: block;
+  background: transparent url(bg-menu-nav-onclick-gauche.gif) no-repeat left;
+  padding: 4px 0 4px 15px;
+  margin: 0;
+}
+
+div#ruban div#navigation ul li a.onclick,
+div#ruban div#navigation ul li a.onclick:hover, div#ruban div#navigation ul li a.onclick:focus, div#ruban div#navigation ul li a.onclick:active {
+  display: block;
+  margin-top: 0px;
+  padding: 0 15px 0 0;
+  background: #a0bdd4 url(bg-menu-nav-onclick-droite.gif) no-repeat right;
+}
+
+a#onglet-events, a#onglet-mp {
+  display: block;
+  width: 27px;
+  height: 26px;
+  float: left;
+  background: #dfe9f1 url(bg-corner-onglets.gif) no-repeat bottom;
+  text-align: center;
+  text-decoration: none;
+}
+
+div#menu-events-actif a.archives, div#menu-mp-actif a.archives {
+  font-weight: bold;
+  color: #335d7f;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background: #b1c9dd url(bg-link-archives-menu-actif.gif) no-repeat bottom;
+  padding: 3px 0;
+  zoom: 1;
+}
+
+div#ruban div#lien-menu-membres, div#ruban div#lien-menu-membres.onclick,
+div#ruban div#lien-menu-inscription {
+  position: relative;
+  z-index: 1;  
+  top: 4px;
+  right: 0;
+  background: #a0bdd4 url(bg-lien-menu-membres.gif) no-repeat;
+  float: right;
+  display: block;
+  width: 162px; 
+  height: 46px;
+  border: none;
+}
+
+div#ruban.vista div#lien-menu-membres, div#ruban.vista div#lien-menu-membres.onclick,
+div#ruban.vista div#lien-menu-inscription {
+  background: #a0bdd4 url(bg-lien-menu-membres-vista.png) no-repeat;
+}
+
+div#ruban div#lien-menu-membres.onclick {
+  background: #a0bdd4 url(bg-lien-menu-membres-actif.png) no-repeat;
+  right: -1px;
+  width: 164px;
+  height: 47px;
+  top: 3px;
+}  
+
+div#ruban.vista div#lien-menu-membres.onclick {
+  background: #a0bdd4 url(bg-lien-menu-membres-actif-vista.png) no-repeat;
+  border: none;
+  right: -1px;
+  width: 164px;
+  height: 47px;
+  top: 3px;
+}
+
+div#ruban div#lien-menu-membres.onclick a, div#ruban div#lien-menu-membres.onclick a:hover, div#ruban div#lien-menu-membres.onclick a:active, div#ruban div#lien-menu-membres.onclick a:focus {
+  background: transparent url(bg-cadre-membres-hover.gif) no-repeat 142px center;
+}
+
+div#titre-page {
+  background: #dfe9f1 url(bg-corner-bloc-titre.gif) no-repeat right bottom;
+  margin: 0 3px 22px 0;
+}
+
+div#texted {
+  margin: 0 0 0 8px;
+}
+
+div#ruban div#lien-menu-membres.onclick  a {
+  padding: 5px 5px 5px 3px;
+}
+
+div#menu-events-actif , div#menu-mp-actif  {
+  right: -3px;
+  margin: -22px 0 21px 0;
+}
+
+
+
+/***************************
+/* Lightbox
+/***************************/
+
+div#lb-contenu {
+/*  margin-top: 3px; */
+  height: 387px;
+}
+
+div#lb-contenu-text {
+  height: 345px;
+}
+
+/*
+img#lb-titre {
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 3px;
+}
+*/

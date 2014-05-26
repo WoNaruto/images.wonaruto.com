@@ -1,0 +1,361 @@
+/***************************
+/* Remise à zéro 
+/***************************/
+
+html {   
+  font-size: 100%;
+} 
+
+body { 
+  margin: 0; 
+  padding: 5px; 
+  font-family: Arial, Helvetica, FreeSans, sans-serif; 
+  font-size: .8em;
+  color: black; 
+  background-color: #EFEFEF;  
+}
+
+
+/***************************
+/* Liens 
+/***************************/
+
+a {
+  text-decoration: none;
+  color: #5c5867;
+}
+
+a:hover, a:active, a:focus {
+  color: #95949B;
+}
+
+a.lien_fleche {
+    text-align: left;
+    font-weight: bold;
+    color : #706C7A;
+    display: block;
+}
+
+a.lien_fleche:hover, a.lien_fleche:focus, a.lien_fleche:active {
+    color: #706C7A;
+    background-color: #E2EBF3;
+}
+
+
+/***************************
+/* Utilisé pour les MP 
+/***************************/
+
+table.comments, table.liste {
+    width: 555px;
+}
+
+table.caracteristiques{
+    width: 140px;
+}
+
+table.liste h1, table.comments h1 {  
+  font-size: 1em;
+}
+
+table.liste td.bg-1, table.liste tr.bg-1,
+table.comments td.bg-1, table.comments tr.bg-1  {
+  background-color: #DBDCDF;
+}
+
+table.liste td.bg-3, table.liste tr.bg-3,
+table.comments td.bg-3, table.comments tr.bg-3  {
+    background-color: #D0D2D5;
+}
+
+table.liste tr.bg-white,
+table.comments td.bg-white {
+    background-color: white;
+}
+
+table.liste td.small,
+table.comments td.small {
+  font-size: .8em;
+}
+
+table.liste td.left,
+table.comments td.left {
+    text-align: left;
+    vertical-align: top;
+}
+
+table.liste td.right,
+table.comments td.right {
+    text-align: right;
+    vertical-align: top;
+}
+
+table.liste td.center,
+table.comments td.center {
+    text-align: center;
+    vertical-align: top;
+}
+
+table.liste td.justify,
+table.comments td.justify {
+    text-align: justify;
+    vertical-align: top;
+}
+
+table.comments td.comments-avatar {
+  width: 36px;
+  vertical-align: top;
+}
+
+table.comments td.comments-avatar img {
+  border: 1px solid black;
+}
+
+table.comments td.comments-texte {
+  width: 510px;
+  padding: 1px 0 0 9px;
+  vertical-align: top;
+  text-align: justify;
+  font: normal .85em Verdana, Arial, Helvetica, FreeSans, sans-serif;
+  color: black;
+}
+
+table.comments td.comments-online {
+  text-align: right;
+}
+  
+h1.titre, h2.titre, h3.titre {
+    font-family: Verdana, Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 1.1em;
+    color: #706C7A;
+    font-weight: bold;
+}  
+
+div.MP_titre {
+  text-align: right;
+  background-color: #706C7A;
+  font-family: Verdana, Arial, Helvetica, FreeSans, sans-serif;
+  font-size: 1em;
+  padding: 4px;
+  color: #EFEFEF;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.mclasse {
+  font-family: Arial, Verdana, Helvetica, FreeSans, sans-serif;
+  font-size: .8em;
+    color: #706C7A;
+  font-weight: bold;
+}
+
+input.titre {
+  border: none;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-top-right-radius: 5px; 
+  -webkit-border-top-left-radius: 5px; 
+  background-color: #898494; 
+  width: 399px;
+  color: white;
+  font: bold .8em Verdana, Arial, Helvetica, FreeSans, sans-serif;  
+  display: block;
+  border: 1px solid #898494;
+}
+
+form#form-mp input.titre {
+  margin-top: 5px;
+}
+
+select {
+  background-color: #c7c7c7;
+  border: 1px solid black;
+  color: #000000;
+  font: bold .9em Verdana, Arial, Helvetica, FreeSans, sans-serif;
+  border-width: 1px;
+}
+
+div.signature {
+  text-align: right;
+    border-bottom: 1px solid #706C7A;
+    background-color: #DBDCDF;
+  font-family: Arial, Verdana, Helvetica, FreeSans, sans-serif;
+  font-size: .75em;
+  color: black;
+}
+
+.mpseudo {
+  font: bold 1em Arial, Verdana, Helvetica, FreeSans, sans-serif;
+  color: black;
+}
+
+.online {
+  font: bold .8em Arial, Verdana, Helvetica, FreeSans, sans-serif;
+  color: #339966;
+}
+
+.offline {
+  font-family: Arial, Verdana, Helvetica, FreeSans, sans-serif;
+  font-size: .8em;
+  color: #ff6666;
+}
+
+div.comments-form {
+  margin: 0 0 30px 10px;         
+}
+
+div.comments-form div.avatar {
+  float: left; 
+  width: 70px; 
+  height: 36px; 
+  margin-top: 29px; 
+  background: #EFEFEF url(bg-comments-form-avatar.gif) no-repeat right top;
+}
+
+form#form-mp div.comments-form div.avatar {
+  background-color: transparent;
+  background-image: none;
+  margin-top: 35px;
+}
+
+div.comments-form div.avatar img {
+  border: 1px solid black;
+}
+
+div.comments-form div.form {
+  margin-left: 70px;
+}
+
+div.comments-form div.input-form {
+  text-align: left; 
+  margin: 5px 0;
+  background-color: #EFEFEF;
+}
+
+form#form-mp div.comments-form div.input-form {
+  background: #EFEFEF url(bg-comments-form-avatar.gif) no-repeat left top;
+  padding-left: 20px;
+  margin: -16px 0 2px -20px;
+}  
+
+div.comments-form div.input-form textarea {
+  border: none; 
+  padding: 5px; 
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-bottom-left-radius: 5px; 
+  -webkit-border-bottom-right-radius: 5px; 
+  background-color: #dddddd; 
+  width: 401px; 
+  height: 52px;
+  font-weight: normal;
+  color: black;
+  margin: 0;
+  font: normal .8em Verdana, Arial, Helvetica, FreeSans, sans-serif;
+}
+
+div.comments-form div.input-form textarea.medium {   
+  height: 102px;
+}
+
+div.comments-form div.input-form textarea.big {    
+  height: 152px;
+}
+
+div.comments-form div.form input.submit, div.comments-form div.form input.preview {
+  border: none; 
+  width: 269px; 
+  cursor: pointer; 
+  color: #706c7a; 
+  background-color: #898494; 
+  color: white; 
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  -opera-border-radius: 5px;
+  padding: 2px; 
+  text-align: center; 
+  font: bold .85em Verdana, Arial, Helvetica, FreeSans, sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+div.comments-form div.form input.preview {
+  width: 134px;
+  background-color: #dddddd;
+  border: 1px solid #dddddd;
+  color: #898494;
+  margin-right: 8px;
+}
+
+div.comments-form div.form input.submit {
+  border: 1px solid #898494;
+  background-color: #dddddd;
+  color: #706c7a;
+}
+
+div.comments-form div.erreur {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  background-color: #fad3d3; 
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  width: 407px; 
+  padding: 2px; 
+  margin: 0 0 0 70px;
+  font-size: 1em;
+}
+
+div.comments-form .attention {
+  font-size: .9em;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fad3d3; 
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  width: 407px; 
+  padding: 2px; 
+  margin-bottom: 5px;
+}
+
+div.comments-form div.ok {
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  background-color: #d8f2e9; 
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  width: 407px; 
+  padding: 2px; 
+  margin: 0 0 0 70px;
+  font-size: 1em;
+}
+
+div.comments-form div.form div.loader {
+  width: 407px; 
+  height: 16px;
+  text-align: center;
+  background: #EFEFEF url(http://images.wonaruto.com/loading.gif) no-repeat center;
+}
+
+div.aff-err {
+  font-weight: bold;
+  color: red;            
+  background-color: #fad3d3; 
+  padding: 5px;
+  text-align: center;
+}
+
+div.aff-ok {             
+  font-weight: bold;
+  color: green;
+  background-color: #d8f2e9; 
+  padding: 5px;
+  text-align: center;
+} 

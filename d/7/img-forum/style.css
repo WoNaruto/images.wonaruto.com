@@ -1,0 +1,1083 @@
+/* Le design en lui même */
+
+body {
+  background-color: #A7BDCF;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('');
+}
+
+a {
+  text-decoration: none;
+  color: #244F78;
+}
+
+a:hover {
+  color: #005998;
+}
+
+div#design {
+  width: 740px;
+  background-color: #efefef;
+  text-align: left;
+  position: relative;
+  color: #244F78;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+}
+
+div#structure {
+  padding: 5px;
+}
+
+div#tdefilant {
+  position: absolute;
+  top: 140px;
+  left: 10px;
+}
+
+div#onglets {
+  position: absolute;
+  top: 28px;
+  left: 295px;
+}
+
+div#onglets a {
+  width: 70px;
+  display: block;
+  float: left;
+  background-image: url('onglet.gif');
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: 0 -13px;
+}
+
+div#onglets a:hover {
+  color: #FFFFFF;
+  background-position: 0 1px;
+}
+
+div#onglets a#selected{
+  color: #FFFFFF;
+  width: 70px;
+  float: left;
+  display: block;
+  background-image: url('onglet.gif');
+  background-repeat: no-repeat;
+  background-position: 0 1px;
+  text-align: center;
+}
+
+span#top { margin-left: 5px;  }
+
+div#top_membre {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 154px;
+}
+
+div#top_menu {
+  position: absolute;
+  top: 139px;
+  right: 5px;
+  width: 149px;
+  text-align: center;
+}
+
+div#top_menu div#top_menu_membres_link {
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+div#top_menu a {
+  color: #244F78;
+}
+
+div#top_menu_membres {
+  width: 149px;
+  background-color: #A7BDCF;
+  text-align: left;
+}
+
+div#top_menu_membres_open {
+  height: 125px;
+}
+
+div#top_menu_membres img#top_menu_membres_img {
+  border: 0;
+  margin-bottom: 15px;
+}
+
+div#top_membre form {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+div#top_membre input {
+  margin: 1px 0;
+  width: 120px;
+}
+
+
+a#ban img {
+  border: 0;
+  margin-bottom: 10px;
+}
+
+div#texte {
+  float: left;
+  width: 570px;
+  font-size: 13px;
+  font-family: arial;
+  color: #000000;
+  font-weight: normal;
+  text-align: justify;
+}
+
+div#texte-large {
+  font-size: 13px;
+  font-family: arial;
+  color: #000000;
+  font-weight: normal;
+  text-align: justify;
+  padding: 5px;
+}
+
+div#texted {
+  padding: 5px;
+  padding-right: 10px;
+}
+
+div#menu {
+  float: right;
+  width: 149px;
+  text-align: left;
+  padding-top: 40px;
+}
+
+div#menu a.menu, div#top_menu_membres a.menu {
+  width: 149px;
+  display: block;
+  background-color: #A7BDCF;
+  color: #FFFFFF;
+  text-indent: 17px;
+  background-image: url('fond_menu.gif');
+  background-repeat: no-repeat;
+}
+
+div#menu a.menu:hover, div#top_menu_membres a.menu:hover {
+  background-position: 0 -15px;
+  color: #244F78;
+}
+
+
+div#menu a.menu-rel, div#top_menu_membres a.menu-rel {
+  width: 149px;
+  display: block;
+  background-color: #A7BDCF;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 13px;
+}
+
+div#menu a.menu-rel:hover, div#top_menu_membres a.menu-rel:hover {
+  color: #244F78;
+}
+
+div#menu div.menu-content {
+  width: 149px;
+  background-color: #A7BDCF;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+
+div#spacer {
+  clear: both;
+}
+
+div#copy {
+  margin-right: 10px;
+  margin-bottom: 2px;
+  text-align: right;
+}
+
+
+/* Fin du design */
+
+
+/* En ce qui concerne les unes */
+
+div.V5_une {
+
+  background-image: url('une.gif');
+  background-repeat: no-repeat;
+  width: 544px;
+  height: 126px;
+  position: relative;
+
+}
+
+div.V5_une a {
+  color: #FFFFFF;
+}
+
+div.V5_une a:hover {
+  text-decoration: underline;
+}
+
+div.V5_une img.arts {
+  border: 1px solid #000000;
+  margin: 0 9px;
+}
+
+div.V5_une div.liens {
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 139px;
+  height: 120px;
+  overflow: hidden;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+}
+
+div.V5_une div.arts {
+  position: absolute;
+  top: 4px;
+  height: 102px;
+  left: 163px;
+  width: 371px;
+}
+
+div.V5_une div.lien {
+  position: absolute;
+  top: 110px;
+  right: 5px; color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: arial;
+}
+
+div.V5_une div.description {
+  position: absolute;
+  top: 4px;
+  height: 102px;
+  left: 163px;
+  width: 371px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+div.V5_une div.lire {
+  position: absolute;
+  bottom: 20px;
+  right: 4px;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.V5_une div.lire a {
+  color: #000000;
+}
+
+div.V5_une div.tome {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  width: 133px;
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+}
+
+div.V5_une div.kishimoto {
+  position: absolute;
+  top: 4px;
+  height: 102px;
+  left: 163px;
+  width: 271px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+div.V5_une div.kishimoto_end {
+  position: absolute;
+  bottom: 20px;
+  right: 110px;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.V5_une div.kishimoto_end a {
+  color: #000000;
+}
+
+/* Fin des unes */
+
+
+/* En ce qui concerne les amis */
+
+a.friends1 {
+  display: block;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 12px;
+  width: 155px;
+  text-indent: 2px;
+}
+
+a.friends2 {
+  display: block;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 12px;
+  width: 155px;
+  text-indent: 2px;
+  background-color: #E2EBF3;
+}
+
+a.friends1:hover, a.friends2:hover {
+  background-color: #A7BDCF;
+  color: #FFFFFF;
+}
+
+/* Fin des amis */
+
+
+/* En ce qui concerne les titres */
+
+  div#titre-cadre {
+    height: 24px;
+    background-image: url('titre/fond.gif');
+    background-repeat: repeat-x;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family : Verdana;
+    font-size : 13px;
+    color : #005998;
+    font-weight : bold;
+    text-align: left;
+  }
+
+  div#titre-image {
+    height: 24px;
+    padding-left: 55px;
+    padding-top: 2px;
+    background-repeat: no-repeat;
+  }
+
+  div#titre {
+    height: 24px;
+    background-image: url('titre/fond.gif');
+    background-repeat: repeat-x;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family : Verdana;
+    font-size : 13px;
+    color : #005998;
+    font-weight : bold;
+    padding-top: 2px;
+  }
+  *html div#titre {
+    height: 26px;
+  }
+
+  div#stitre{
+    width: 100%;
+    padding-top: 2px;
+    margin-bottom: 5px;
+    font-family : Verdana;
+    font-size : 11px;
+    color : #005998;
+    font-weight : bold;
+    border-bottom: #005998 1px solid;
+  }
+
+  div#sstitre {
+    width: 100%;
+    padding-top: 2px;
+    margin-bottom: 5px;
+    font-family : Verdana;
+    font-size : 11px;
+    color : #005998;
+    border-bottom: #005998 1px solid;
+  }
+
+  #titre3 {
+    font-family : Verdana;
+    font-size : 13px;
+    color : #005998;
+    font-weight : bold;
+  }
+
+
+
+/* En ce qui concerne les float */
+
+  div#gd span#links {
+    float: left;
+    text-align: left;
+    width: 49%;
+  }
+  div#gd span#reichts {
+    float: right;
+    text-align: right;
+    width: 49%;
+  }
+
+  div#spacer {
+    clear: both;
+    font-size: 0;
+  }
+
+
+/* En ce qui concerne les membres */
+
+  #mclasse {
+    font-family : arial;
+    font-size : 10px;
+    color: #6A8DAE;
+  }
+
+  #mpseudo {
+    font-family: Arial;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  #mgrade {
+    font-family: Arial;
+    font-size: 13px;
+    color: #000000;
+  }
+
+
+
+/* En ce qui concerne les membres dans le menu */
+
+  div#mdmembrecadre {
+    width: 140px;
+    font-weight: normal;
+  }
+
+  div#mdmembre span#gauche {
+    float: left;
+    text-align: left;
+    width: 60px;
+    font-family : verdana;
+    font-size : 10px;
+    color: #504B5B;
+  }
+
+  div#mdmembre span#droite {
+    float: right;
+    text-align: right;
+    width: 65px;
+    font-family : verdana;
+    font-size : 10px;
+    color : #504B5B;
+  }
+
+
+
+
+/* En ce qui concerne les commentaires */
+
+  div#signature {
+    width: 100%;
+    background-color: #E2EBF3;
+    text-align: right;
+    border-bottom: 1px solid #65839F;
+    font-family : arial;
+    font-size : 10px;
+    color : #000000;
+  }
+
+  #online {
+    font-family: arial;
+    font-size: 10px;
+    color: #339966;
+    font-weight: bold;
+  }
+
+  #offline {
+    font-family: arial;
+    font-size: 10px;
+    color: #ff6666;
+  }
+
+  #commentaire {
+    font-family: verdana;
+    font-size : 11px;
+    color : #000000;
+    text-align: justify;
+  }
+
+  div#erreur_comment  {
+    text-align: center;
+    color: #FF0000;
+    font-weight: bold;
+  }
+
+  div#pages_comment {
+    font-family: verdana;
+    font-size : 11px;
+    font-weight: bold;
+    border: 1px solid #65839F;
+    padding: 5px;
+    background-color: #D1DCE5;
+    color: #005998;
+  }
+
+
+
+
+/* En ce qui concerne les formulaires */
+
+  input {
+     background-color: #E2EBF3;
+     font-weight: bold;
+     border: 1px solid #706C7A;
+     color: #706C7A;
+     font: bold 10px Verdana;
+     border-width: 1px;
+     padding: 1px;
+   }
+
+
+   select {
+     background-color : #E2EBF3;
+     font-weight : bold;
+     border : 1px solid #706C7A;
+     color : #706C7A;
+     font-weight : bold;
+     font-size: 10px;
+     font-family: Verdana;
+     border-width : 1px;
+   }
+
+   textarea {
+     background-color: #FFFFFF;
+     font-weight: bold;
+     border: 1px solid #706C7A;
+     color: #706C7A;
+     font: bold 10px Verdana;
+     border-width: 1px;
+     padding: 2px;
+   }
+
+   form.inscription {
+      margin-top: 10px;
+      border: 1px solid #706C7A;
+      padding: 10px;
+      width: 400px;
+   }
+
+
+
+/* En ce qui concerne les MPs */
+
+  div.MP_liste_titre {
+    width: 100%;
+    padding-top: 2px;
+    font-family : Verdana;
+    font-size : 13px;
+    color : #005998;
+    font-weight : bold;
+  }
+
+  .MP_liste {
+    font-family : Arial;
+    font-size : 11px;
+    color : #504B5B;
+    font-weight : bold;
+  }
+
+  div.MP_titre {
+    text-align: right;
+    border-bottom: 1px solid #244F78;
+    font-family : Verdana;
+    font-size : 11px;
+    color : #244F78;
+    font-weight : bold;
+  }
+
+
+
+/* En ce qui concerne les jeux vidéos (utilisé un peu partotu) */
+
+  div#JV {
+    padding-left: 109px;
+    background-image: url(../images/jeuxvideo/index_4.jpg);
+    background-repeat: no-repeat;
+  }
+
+  a#JV1 {
+    display : block;
+    width: 100%;
+    font-family : Verdana;
+    font-size : 11px;
+    font-weight : bold;
+    border-bottom: #244F78 solid 1px;
+    text-align: left;
+    text-decoration : none;
+    color : #244F78;
+    padding: 2px;
+  }
+  a#JV1:hover {
+    text-decoration : none;
+    color: #FFFFFF;
+    background-color: #A7BDCF;
+  }
+
+  a#JV2 {
+    display : block;
+    width: 100%;
+    font-family : Verdana;
+    font-size : 11px;
+    font-weight : bold;
+    border-bottom: #244F78 solid 1px;
+    text-align: left;
+    text-decoration : none;
+    color : #244F78;
+    background-color: #E2EBF3;
+    padding: 2px;
+  }
+  a#JV2:hover {
+    text-decoration : none;
+    color: #FFFFFF;
+    background-color: #A7BDCF;
+  }
+
+
+
+
+/* En ce qui concerne le contenu */
+
+  div.resumes{
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    padding-left: 95px;
+    background-repeat: no-repeat;
+  }
+
+
+  div.jutsu{
+    margin-top: 10px;
+    border-bottom: #005998 1px solid;
+    padding-left: 80px;
+    padding-bottom: 5px;
+    background-repeat: no-repeat;
+    height: 80px;
+  }
+
+  div.perso_lettre_2 {
+    background-color: #E2EBF3;
+  }
+
+  div.perso{
+    height: 90px;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+  }
+
+
+
+/* En ce qui concerne les fight */
+
+  form.fight {
+    width: 135px;
+    text-align: center;
+  }
+
+  table.fight {
+    margin-top: 10px;
+    font-size: 11px;
+    font-family: verdana;
+  }
+
+  span.fight {
+    font-size: 11px;
+    font-family: verdana;
+    font-weight: bold;
+    color: #504B5B;
+  }
+
+
+
+
+/* En ce qui concerne le bar */
+
+  img.bars {
+    border: 1px solid #000000;
+    margin: 5px;
+  }
+
+  div#bars-images {
+    text-align: center;
+  }
+  *html div#bars-images {
+    text-align: center;
+    float: left;
+  }
+  div#bars-texte {
+    margin: 5px;
+    background-color: #E2EBF3;
+    text-align: justify;
+    font-family : arial;
+    font-size : 10px;
+    color : #000000;
+    padding: 5px;
+  }
+
+  * html div#bars-texte {
+    margin: 5px;
+    background-color: #E2EBF3;
+    text-align: justify;
+    font-family : arial;
+    font-size : 10px;
+    color : #000000;
+    float: left;
+    height: 100px;
+    margin-right: 0;
+  }
+
+  div#bars-banned {
+    margin: 5px;
+    background-color: #E2EBF3;
+    text-align: justify;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    color: #000000;
+  }
+
+  span.bars-banned-list {
+    margin-left: 5px;
+    text-align: justify;
+    font-family : arial;
+    font-size : 10px;
+    color : #504B5B;
+  }
+
+
+
+
+/* En ce qui concerne l'espace art */
+
+  div.image_galerie {
+    float : left;
+    margin : 2px;
+    text-align : center;
+    background-color: #E2EBF3;
+    width: 24%;
+    font-size: 10px;
+    font-family: arial;
+  }
+
+  img.image_galerie {
+    border: 1px solid #000000;
+    margin: 2px;
+  }
+
+  div.galerie {
+    width: 95%;
+    align: right;
+  }
+
+  div#imageview {
+    width: 90%;
+    text-align : center;
+    background-color: #E2EBF3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-family: arial;
+  }
+
+
+  div#gd span.galerie_gauche {
+    float: left;
+    text-align: left;
+    width: 7%;
+  }
+  span.galerie_droite {
+    float: right;
+    text-align: justify;
+    width: 90%;
+  }
+
+
+
+
+/* En ce qui concerne la boutique */
+
+  div.boutique_objet_image {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+  }
+  *html div.boutique_objet_image {
+    width: 62px;
+    height: 62px;
+  }
+  div.boutique_objet_image img {
+    height: 50px;
+    width: 50px;
+    border: 0;
+  }
+
+  div.boutique_objet_texte {
+    margin-top: 5px;
+    text-align: left;
+    width: 90px;
+  }
+
+  div.boutique_objet {
+    float : left;
+    margin : 2px;
+    text-align : center;
+    background-color: #E2EBF3;
+    width: 19%;
+    font-size: 10px;
+    font-family: arial;
+  }
+
+
+
+/* Les trucs de mise en page réutilisés un peu partout */
+
+  a#EMmenu {
+    display : block;
+    width: 100%;
+    font-family : Verdana;
+    font-size : 11px;
+    font-weight : bold;
+    border-bottom: 1px solid #005998;
+    text-align: left;
+    text-decoration : none;
+    color: #244F78;
+  }
+  a#EMmenu:hover {
+    text-decoration : none;
+    color: #005998;
+    background-color: #E2EBF3;
+  }
+
+  div#EMtop {
+    border-bottom: 1px solid #005998;
+  }
+
+
+  a.lien_fleche {
+    text-align: left;
+    font-weight: bold;
+    color : #65839F;
+    display: block;
+    width: 100%;
+  }
+  a.lien_fleche:hover {
+    color : #244F78;
+    background-color: E2EBF3;
+  }
+
+
+  div.ML_div1 {
+    padding: 2px 0;
+    background-color: #FFFFFF;
+    }
+  div.ML_div2 {
+    padding: 2px 0;
+    background-color: #E2EBF3;
+  }
+
+
+  #menulogin {
+    font-family : Arial;
+    font-size : 11px;
+    color : #000000;
+    font-weight : bold;
+  }
+
+
+
+
+
+
+/* Les trucs random */
+
+#episodeanime {
+  font-family : Arial;
+  font-size : 12px;
+  color : #706C7A;
+  font-weight : bold;
+}
+
+div#espacemembre2 {
+  width: 80%;
+  background-color: #E2EBF3;
+  border: solid 1px #65839F;
+  text-align: left;
+}
+
+div#soustitreEM2 {
+  font-family : Verdana;
+  font-size : 11px;
+  color : #005998;
+  font-weight : bold;
+  border-bottom: #65839F solid 1px;
+  text-align: left;
+  padding: 5px;
+}
+
+#blabla {
+  float: left;
+  width: 7%;
+  text-align: right;
+}
+
+
+
+/*
+
+
+
+     ARMES
+
+
+
+
+*/
+
+.armes_nb {
+
+  color: #005998;
+  font-size: 11px;
+  font-family: verdana;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS pour le contenu des dossiers 'n' co */
+
+div.spoil {
+}
+
+a.spoil {
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  background-color: #F0F7FC;
+}
+
+img.dossier {
+  border: 1px solid #000000;
+  margin: 3px;
+}
+
+div.dossier_intro {
+  font-style: italic;
+  text-align: center;
+}
+
+
+  table.liste {
+    font-family: arial;
+    font-size: 12px;
+    width: 555px;
+  }
+
+  table.liste tr.bg-1 {
+    background-color: #F0F7FC;
+  }
+
+  table.liste tr.bg-3 {
+    background-color: #CCE2F4;
+  }
+
+  table.liste td.bg-1 {
+    background-color: #F0F7FC;
+  }
+
+  table.liste td.bg-3 {
+    background-color: #CCE2F4;
+  }
+
+  table.liste td.left {
+    text-align: left;
+    vertical-align: top;
+  }
+
+  table.liste td.right {
+    text-align: right;
+    vertical-align: top;
+  }
+
+  table.liste td.center {
+    text-align: center;
+    vertical-align: top;
+  }
+
+  table.liste td.justify {
+    text-align: justify;
+    vertical-align: top;
+  }
+
+
+
+  table.class_liens_liste {
+    width: 555px;
+    font-size: 12px;
+  }
+
+  table.class_liens_liste td {
+    vertical-align: top;
+    padding-right: 5px;
+  }
+
+
+
+
+  table.caracteristiques {
+    width: 140px;
+  }
+
+
+  .caracteristiques {
+    font-size: 11px;
+  }
+
+
+
+  h1.titre {
+
+    font-family : Verdana;
+    font-size : 13px;
+    color : #005998;
+    font-weight : bold;
+
+  }

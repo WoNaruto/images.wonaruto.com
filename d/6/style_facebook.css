@@ -1,0 +1,75 @@
+/* 
+Modification pour FB
+*/
+
+div#design {
+
+  border-left: 0;
+  border-right: 0;
+
+}
+
+div#ruban div#navigation h1 {
+  margin:-3px 0 0 -1px;    
+}
+div#ruban.vista div#navigation h1 {
+  background-image: none;
+}
+div#ruban.vista div#navigation {
+  background-image: none;
+}
+
+div#ruban div#navigation {
+  background-image: none;
+  height:60px;
+  position:absolute;
+  right:0;
+  width:739px;
+}
+
+div#footer p.right {
+
+  background-image: none;
+height:40px;
+margin:0;
+padding:21px 21px 0 0;
+position:absolute;
+right: 0;
+top:-11px;
+width:292px;
+}
+
+div#footer p.left {
+  background-image: none;
+  left: 0;      
+}
+
+body {
+
+  background-color: #FFFFFF;
+  background-image: none;
+
+}
+
+div#menu div.block-menu div.titre-menu {
+  background-image: none;
+  height:30px;
+  margin-bottom:-2px;
+  position:relative;
+  right: 0;
+  width:160px;
+}
+
+div#menu div.block-menu h3 {
+  background:url("bg-titre-menu-gauche.png") no-repeat scroll left top #7996AD;
+  color:white;
+  font-size:12px;
+  left:-2px;
+  margin:0;
+  padding:3px 0 4px 4px;
+  position:absolute;
+  text-shadow:1px -1px #58778F;
+  top:0;
+  width:160px;
+  z-index:2;
+}

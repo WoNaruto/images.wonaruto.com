@@ -1,0 +1,286 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:90;   
+    background-color:#000;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+    }
+#overlay[id]{ /* IE6 and below Can't See This */
+    position:fixed;
+    }
+
+
+#aide_WoN{
+    width:300px;
+    background:#ddd;
+    padding:10px;
+    border:2px solid #eee;
+}
+
+
+#aide_WoN {
+	width: 630px;
+	height: 430px;
+	color: #333;
+	padding: 0;
+	border: 0;
+}
+
+.lightbox-border { 
+
+	background-color: black;
+	padding: 15px;
+
+}
+
+.lightbox-in { 
+
+	width: 600px;
+	height: 400px;
+	background-color: black;
+	text-align: left;
+	overflow: auto;	
+	z-index:1002;
+
+	position: relative;
+
+}
+
+.lightbox-texte-1 { 
+
+  	
+	margin-top: 50px;
+	margin-left: 100px;
+  	width: 300px;
+	height: 300px;
+	overflow: auto; 
+	font-size: 11px;
+	font-weight: bold;
+	font-family: arial;
+	text-align: justify;
+	z-index:1003;
+
+}
+
+.lightbox-texte-2 { 
+
+  	
+	margin-top: 80px;
+	margin-left: 122px;
+  	width: 300px;
+	height: 300px;
+	overflow: auto; 
+	font-size: 11px;
+	font-weight: bold;
+	font-family: arial;
+	text-align: justify;
+	z-index:1003;
+
+}
+
+.lightbox-texte-3 { 
+
+      
+    margin-top: 66px;
+    margin-left: 34px;
+      width: 300px;
+    height: 300px;
+    overflow: auto; 
+    font-size: 11px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: justify;
+    z-index:1003;
+
+}
+
+      
+
+#lightbox-ok-3 { 
+
+    position: absolute;
+    display: block; 
+    width: 100px;
+    height: 50px;
+    bottom: 35px;
+    right: 0;
+
+      background-image: none;
+
+}
+#lightbox-ok-3:hover { 
+
+    background-image: url('http://images.wonaruto.com/aide/ok-1.jpg');
+    background-repeat: no-repeat;
+    background-position: 26px 16px;
+
+}    
+
+#lightbox-ok-2 { 
+
+    position: absolute;
+    display: block; 
+    width: 100px;
+    height: 50px;
+    top: 14px;
+    left: 70px;
+
+      background-image: none;
+
+}
+#lightbox-ok-2:hover { 
+
+    background-image: url('http://images.wonaruto.com/aide/ok-2.gif');
+    background-repeat: no-repeat;
+    background-position: 27px 14px;
+
+}
+
+#lightbox-ok-1 { 
+
+	position: absolute;
+	display: block; 
+	width: 100px;
+	height: 50px;
+	bottom: 35px;
+	right: 0;
+
+  	background-image: none;
+
+}
+#lightbox-ok-1:hover { 
+
+	background-image: url('http://images.wonaruto.com/aide/ok-1.jpg');
+	background-repeat: no-repeat;
+	background-position: 26px 16px;
+
+}    
+
+#lightbox-fermer-1 { 
+
+	position: absolute;
+	display: block; 
+	width: 100px;
+	height: 50px;
+	bottom: 90px;
+	right: 60px;
+
+}
+#lightbox-fermer-1:hover { 
+
+    background-image: url('http://images.wonaruto.com/aide/fermer-1.gif');
+    background-repeat: no-repeat;
+    background-position: 12px 12px;
+
+}
+
+
+#lightbox-fermer-2 { 
+
+	position: absolute;
+	display: block; 
+	width: 100px;
+	height: 50px;
+	top: 72px;
+	left: 5px;
+
+}   
+#lightbox-fermer-2:hover { 
+
+	background-image: url('http://images.wonaruto.com/aide/fermer-2.gif');
+	background-repeat: no-repeat;
+	background-position: 12px 9px;
+
+}
+
+#lightbox-fermer-3 { 
+
+    position: absolute;
+    display: block; 
+    width: 100px;
+    height: 50px;
+    bottom: 90px;
+    right: 60px;
+
+}
+#lightbox-fermer-3:hover { 
+
+    background-image: url('http://images.wonaruto.com/aide/fermer-1.gif');
+    background-repeat: no-repeat;
+    background-position: 12px 12px;
+
+}
+
+#aff-close-1 { 
+
+  position: absolute; 
+  left: 0; 
+  bottom: 2px; 
+  width: 580px; 
+  text-align: center; 
+  font-size: 12px; 
+  font-family: arial; 
+  font-weight: bold;
+
+}
+
+#aff-close-2 { 
+
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  width: 580px; 
+  text-align: center; 
+  font-size: 12px; 
+  font-family: arial; 
+  font-weight: bold;
+
+}
+#aff-close-3 { 
+
+  position: absolute; 
+  left: 0; 
+  bottom: 2px; 
+  width: 580px; 
+  text-align: center; 
+  font-size: 12px; 
+  font-family: arial; 
+  font-weight: bold;
+
+}
+
+
+#close{
+    position:absolute;
+    top:-50px;
+    right:-50px;
+    cursor:pointer;
+    display: none;  	
+}
+
+.WoNaide { 
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.WoNaide li { 
+ 
+  margin: 0 0 0 15px;
+  padding: 0;
+
+}
+

@@ -1,0 +1,52 @@
+div#design-large {
+    float: none !important;
+    position: relative !important;	
+    border: none;	
+    font-size: 14px;
+}
+
+div.pagelinkst {
+	background: none;
+}
+
+.pun h1 {
+	font-size: 23px;
+}
+
+#mpseudo, #mgrade, div.postmsg, div.incqbox {
+	font-size: 18px !important;
+}
+
+.colr2, div.linkst .conl, div.pagelinkst .conl, div.linksb .conl, div.postlinksb .conl {
+	float: none;
+	clear: none;
+	display: block;
+	width: 100% !important;
+}
+
+div.pagelinkst {
+	background: none;
+}
+
+div.page, .tcl, .tcl2, .tc2, .tc3, .tcr, div.pagelink ul, div.pagelink_post li, .byuser, div.modo, .colf, .colr, .colr2, .colf2, .clearb, div.posttopright ul, .pun h2, .pun h4, p.postedit, div.postfootright, div.bottom, div.pagelink h2, div.pagelinkst ul, div.pagelinkst, div.pagelinkbt, .postlink, .pun h3 {
+	font-size: 16px;
+}
+
+.blockpost h2 {
+	font-size: 13px;
+}
+
+.onglet {
+	position: static;
+	display: inline;
+	width: auto;
+	height: auto;
+}
+
+.pun textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	resize: vertical;
+	width: 100% !important;
+}

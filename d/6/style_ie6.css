@@ -1,0 +1,44 @@
+div#ruban div#navigation {
+  background: transparent url(bg-ruban-header-droite-ie6.gif) no-repeat right top;
+}
+
+div#ruban.vista div#navigation {
+  background: transparent url(bg-ruban-header-droite-ie6-vista.png) no-repeat right top;
+}
+
+div#ruban div#navigation h1 {
+  background: transparent url(bg-ruban-header-gauche-ie6.png) no-repeat left;
+}
+
+div#ruban.vista div#navigation h1 {
+  background: transparent url(bg-ruban-header-gauche-ie6-vista.png) no-repeat left;
+}
+
+div#menu div.block-menu div.titre-menu {
+  background: transparent url(bg-titre-menu-droite-ie6.gif) no-repeat right top;
+}
+
+div#footer p.right {
+  background: transparent url(bg-ruban-footer-droite-ie6.png) no-repeat right top;
+}
+
+div#footer p.left {
+  background: transparent url(bg-ruban-footer-gauche-ie6.gif) no-repeat left top;
+}
+
+div.titre-image, div#titre-image {
+  background: transparent url(bg-titre-page-ie6.png) no-repeat left top;
+}
+
+div#ruban div#navigation ul li a {
+  margin-right: 2px;
+}
+
+div#lightbox {
+  padding: 10px;
+  background-color: white;
+}
+
+div#overlay {
+  background: 0;
+}
