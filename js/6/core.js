@@ -153,7 +153,7 @@
     }
       
 /*
- * Sécurité 
+ * Sï¿½curitï¿½ 
 */ 
 
     function js_htmlentities(texte) {
@@ -182,7 +182,7 @@
       }
       else { document.commentaire.texte.value=results; }
 
-      // On déplace le navigateur                         
+      // On dï¿½place le navigateur                         
       var canvasTop = document.commentaire.offsetTop;
       window.scrollTo(0, canvasTop);
       document.commentaire.texte.focus();
@@ -195,7 +195,7 @@
     function form_verif(form, initial_value) {         
       
       //
-      // Vérifions les choses...    
+      // Vï¿½rifions les choses...    
       
         var str = form.texte.value;
         
@@ -290,11 +290,11 @@
     v6_array_menus['village'] = 'l|membres_missions.php|Halle des Missions||l|membres_defis.php|Maisons des D&eacute;fis||l|membres_nfc.php|Naruto Fight Club||s||l|membres_academie.php|Acad&eacute;mie||l|membres_archives.php|Archives||l|membres_arene.php|Ar&egrave;ne||l|membres_boutique.php|Boutiques||l|membres_conseil.php|Conseil du Village||l|membres_entrainement.php|Salle d\'Entra&icirc;nement';
     v6_array_menus['wonde'] = 'l|membres_friends.php|Amis||l|membres_bar.php|Bar des Ninjas||l|membres_forum.php|Forum||s||l|membres_equipe.php|Gestion Equipe||l|faq.php|F.A.Q.||l|membres/liste/|Liste des Membres||l|membres_mp.php|Messages Priv&eacute;s||l|membres/raisons/|1000 raisons||r|membres_liste_search.php|get|pseudo|Pseudo...';
     v6_array_menus['clan'] = 'l|clans_tour.php|Conseil des Clans||l|membres/clans/|Liste des Clans||l|membres/clans/tour/|Tour des Combats||l|membres/clans/recrute/|Recrutement||r|clans_search.php|get|nom|Clan...';
-    v6_array_menus['fanarts'] = 'l|fanarts/favoris/|Favoris||l|fanarts/galeries/|Galeries||l|fanarts/categories/|Galeries &agrave; Th&egrave;me||l|fanarts/personnages/|Galeries de Personnages||l|fanarts/favs/|S&eacute;l&eacute;ctionn&eacute;s||f|membres_options.php|Créer sa galerie';
+    v6_array_menus['fanarts'] = 'l|fanarts/favoris/|Favoris||l|fanarts/galeries/|Galeries||l|fanarts/categories/|Galeries &agrave; Th&egrave;me||l|fanarts/personnages/|Galeries de Personnages||l|fanarts/favs/|S&eacute;l&eacute;ctionn&eacute;s||f|membres_options.php|Crï¿½er sa galerie';
     v6_array_menus['fanarts-2'] = 'l|arts_post.php|Ajouter un Art||l|arts_admin.php|Modifier un Art||l|arts_show.php|Montrer ses Arts||l|arts_delete.php|Supprimer un Art||l|arts_comments.php|Ses commentaires||s||l|fanarts/favoris/|Favoris||l|fanarts/galeries/|Galeries||l|fanarts/categories/|Galeries &agrave; Th&egrave;me||l|fanarts/personnages/|Galeries de Personnages||l|fanarts/favs/|S&eacute;l&eacute;ctionn&eacute;s||f|fanarts/galerie/mine/|Voir sa galerie';
     v6_array_menus['fanfics'] = 'l|fanfictions/favoris/|Favoris||l|fanfictions/couples/|Fanfics par Couples||l|fanfictions/personnages/|Fanfics par Personnages||l|membres_suivis.php|Gestion des Suivis||l|fanfictions/auteurs/|Recueils||l|fanfictions/liste/|Toutes||r|fanfictions/recherche/|get|query|Titre, mots...';
     v6_array_menus['fanfics-2'] = 'l|fics_create.php|Cr&eacute;er une Fiction||l|fics_post.php|Ajouter un Chapitre||l|fics_admin.php|Administrer Fictions||l|fics_admin_comments.php|Vos Commentaires||l|fanfictions/auteur/mine/|Voir son Recueil||s||l|fanfictions/favoris/|Favoris||l|fanfictions/couples/|Fanfics par Couples||l|fanfictions/personnages/|Fanfics par Persos||l|membres_suivis.php|Gestion des Suivis||l|fanfictions/auteurs/|Recueils||l|fanfictions/liste/|Toutes||r|fanfictions/recherche/|get|query|Titre, mots...';
-    v6_array_menus['membres'] = 'l|membres_allopass.php|Acheter des N€rutos||l|membres_ventes.php|Acheter un Compte||l|membres_changement_pseudo.php|Changer de Pseudo||l|membres_changement.php|Changer de Personnage||l|membres_changement.php|Changer de Village||l|membres_compte.php|Modifier son Compte||l|membres_infos.php|Modifier son Profil||l|membres_options.php|Modifier ses Options||l|membres_ventes.php|Vendre un Compte||l|membres_signature.php|Voir ses Signatures||l|membres_stats.php|Voir ses Statistiques||l|membres_profil.php|Voir son Profil||f|deconnexion.php|Déconnexion';
+    v6_array_menus['membres'] = 'l|membres_allopass.php|Acheter des Nï¿½rutos||l|membres_ventes.php|Acheter un Compte||l|membres_changement_pseudo.php|Changer de Pseudo||l|membres_changement.php|Changer de Personnage||l|membres_changement.php|Changer de Village||l|membres_compte.php|Modifier son Compte||l|membres_infos.php|Modifier son Profil||l|membres_options.php|Modifier ses Options||l|membres_ventes.php|Vendre un Compte||l|membres_signature.php|Voir ses Signatures||l|membres_stats.php|Voir ses Statistiques||l|membres_profil.php|Voir son Profil||f|deconnexion.php|Dï¿½connexion';
     v6_array_menus['dossiers'] = 'l|naruto/dossiers/chakra-nature-element/|Chakra||l|naruto/dossiers/chronologie/|Chronologie||l|naruto/clans/|Clans||l|naruto/dossiers/ninjas-medecins/|Eisei Nin||l|naruto/grades/|Grades Ninjas||l|naruto/dossiers/Kirin/|Kirin||l|naruto/bijuus/|L&eacute;gende des neuf Bijuus||l|naruto/dossiers/legendes-asiatiques/|L&eacute;gendes Asiatiques||l|naruto/dossiers/liens/|Liens||l|naruto/dossiers/Amaterasu-Susanoo-Tsukuyomi-Shintoisme/|Mangekyou Sharingan||l|naruto/dossiers/ninken-taisen/|Ninken Taisen||l|naruto/dossiers/sannins-legendaires/|Sannins L&eacute;gendaires||l|naruto/dossiers/senseis/|Sense&iuml;s||f|naruto/dossiers/|Tous nos dossiers';
 
 
@@ -433,16 +433,16 @@
 * Lightboxes
 */
    
-    // Ouvre une lightbox et appelle un fichier js qui va mettre son contenu à l'intérieur
+    // Ouvre une lightbox et appelle un fichier js qui va mettre son contenu ï¿½ l'intï¿½rieur
     // Si timeout (3 sec) du chargement, redirige automatiquement vers url_redir
     // renvoie true si la lightbox a ouvert, false sinon
-    // attention, pour suivre ou non un lien c'est l'exact opposé (false ne suit pas, true suit)
+    // attention, pour suivre ou non un lien c'est l'exact opposï¿½ (false ne suit pas, true suit)
     function lightbox_js(url, url_redir, t_timeout) {             
     
       //
       // D'abord on s'occupe du div "lightbox" 
       
-        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenêtre" alt="Fermer">Fermer</a></div><div id="lb-contenu"><div id="lb-loader"><img src="http://images.wonaruto.com/loading_big.gif" /></div></div></div>';
+        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenï¿½tre" alt="Fermer">Fermer</a></div><div id="lb-contenu"><div id="lb-loader"><img src="http://images.wonaruto.com/loading_big.gif" /></div></div></div>';
         
       //
       // On lance la lightbox
@@ -451,7 +451,7 @@
     
     
       //
-      // On créé le squeer
+      // On crï¿½ï¿½ le squeer
       
         lightbox_js_conf = ((new Date()).getTime()).toString().substr(5, 5); 
         url+= '&conf='+lightbox_js_conf
@@ -506,17 +506,17 @@
           //
           // On change le contenu              
           
-            var str = '<div id="lb-titre-box">Erreur de chargement</div><div id="lb-contenu-text"><br /><br />Pour une raison inconnu le contenu n\'a pas pu être chargé. Si vous n\'êtes pas redirigés sous peu, vous pouvez cliquer sur le lien ci dessous ou fermer la boite.<br /><br /><br /><br /><center><b><a href="'+url_redir+'">Aller à la page</a></b></center></div>';
+            var str = '<div id="lb-titre-box">Erreur de chargement</div><div id="lb-contenu-text"><br /><br />Pour une raison inconnu le contenu n\'a pas pu ï¿½tre chargï¿½. Si vous n\'ï¿½tes pas redirigï¿½s sous peu, vous pouvez cliquer sur le lien ci dessous ou fermer la boite.<br /><br /><br /><br /><center><b><a href="'+url_redir+'">Aller ï¿½ la page</a></b></center></div>';
             document.getElementById('lb-contenu').innerHTML = str;
           
         }
     
     }
    
-    // Ouvre une lightbox et charge url à l'intérieur 
-    // Si échec du chargement, redirige automatiquement vers url_redir
+    // Ouvre une lightbox et charge url ï¿½ l'intï¿½rieur 
+    // Si ï¿½chec du chargement, redirige automatiquement vers url_redir
     // renvoie true si la lightbox a ouvert, false sinon
-    // attention, pour suivre ou non un lien c'est l'exact opposé (false ne suit pas, true suit)
+    // attention, pour suivre ou non un lien c'est l'exact opposï¿½ (false ne suit pas, true suit)
     function lightbox_ajax(url, url_redir) {
                                                         
       //
@@ -524,14 +524,14 @@
       
         if(window.XMLHttpRequest || window.ActiveXObject) {  // Ya de l'ajax :o
         }
-        else { // XMLHttpRequest non supporté par le navigateur
+        else { // XMLHttpRequest non supportï¿½ par le navigateur
           return false;
         }      
     
       //
       // D'abord on s'occupe du div "lightbox" 
       
-        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenêtre" alt="Fermer">Fermer</a></div><div id="lb-contenu"></div></div>';
+        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenï¿½tre" alt="Fermer">Fermer</a></div><div id="lb-contenu"></div></div>';
         
       //
       // On lance la lightbox
@@ -556,7 +556,7 @@
           
           window.location.replace(url_redir);
                                               
-          var str = '<div id="lb-titre-box">Erreur de chargement</div><div id="lb-contenu-text"><br /><br />Pour une raison inconnu le contenu n\'a pas pu être chargé. Si vous n\'êtes pas redirigés sous peu, vous pouvez cliquer sur le lien ci dessous ou fermer la boite.<br /><br /><br /><br /><center><b><a href="'+url_redir+'">Aller à la page</a></b></center></div>';
+          var str = '<div id="lb-titre-box">Erreur de chargement</div><div id="lb-contenu-text"><br /><br />Pour une raison inconnu le contenu n\'a pas pu ï¿½tre chargï¿½. Si vous n\'ï¿½tes pas redirigï¿½s sous peu, vous pouvez cliquer sur le lien ci dessous ou fermer la boite.<br /><br /><br /><br /><center><b><a href="'+url_redir+'">Aller ï¿½ la page</a></b></center></div>';
           document.getElementById('lb-contenu').innerHTML = str;
         
         }
@@ -569,16 +569,16 @@
     
     
     
-    // Ouvre une lightbox et charge url à l'intérieur dans une iframe
+    // Ouvre une lightbox et charge url ï¿½ l'intï¿½rieur dans une iframe
     // Un petit lien vers url_redir en cas de non chargement
     // renvoie true si la lightbox a ouvert, false sinon
-    // attention, pour suivre ou non un lien c'est l'exact opposé (false ne suit pas, true suit)
+    // attention, pour suivre ou non un lien c'est l'exact opposï¿½ (false ne suit pas, true suit)
     function lightbox_iframe(url, url_redir, titre) { 
     
       //
       // D'abord on s'occupe du div "lightbox" 
       
-        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenêtre" alt="Fermer">Fermer</a></div><div id="lb-contenu"></div></div>';
+        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenï¿½tre" alt="Fermer">Fermer</a></div><div id="lb-contenu"></div></div>';
         
       //
       // On lance la lightbox
@@ -590,7 +590,7 @@
       
         var str = '<div id="lb-titre-box">'+js_htmlentities(titre)+'</div>';
         str+= '<iframe id="lb-iframe" frameborder="0" src="'+url+'"></iframe>';
-        str+= '<div id="lb-footer"><a href="'+url_redir+'">Le chargement a échoué ? Cliquez ici !</a> | <b>'+((url_redir.indexOf('javascript') == -1) ? '<a href="'+url_redir+'" target="_blank">' : '<a href="'+url_redir+'">')+'Ouvrir dans une nouvelle fenêtre</a></b></div>';
+        str+= '<div id="lb-footer"><a href="'+url_redir+'">Le chargement a ï¿½chouï¿½ ? Cliquez ici !</a> | <b>'+((url_redir.indexOf('javascript') == -1) ? '<a href="'+url_redir+'" target="_blank">' : '<a href="'+url_redir+'">')+'Ouvrir dans une nouvelle fenï¿½tre</a></b></div>';
         
         document.getElementById('lb-contenu').innerHTML = str;
                 
@@ -599,14 +599,14 @@
     }
         
     
-    // Ouvre une lightbox et charge le contenu à l'intérieur                
+    // Ouvre une lightbox et charge le contenu ï¿½ l'intï¿½rieur                
     // renvoie true si la lightbox a ouvert et que tout est bon, false sinon                                         
     function lightbox_html(titre, texte, footer) {    
     
       //
       // D'abord on s'occupe du div "lightbox" 
       
-        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenêtre" alt="Fermer">Fermer</a></div><div id="lb-contenu"></div></div>';    
+        document.getElementById('lightbox').innerHTML = '<div id="lb-conteneur"><div id="lb-close"><a title="Fermer cette fenï¿½tre" alt="Fermer">Fermer</a></div><div id="lb-contenu"></div></div>';    
     
       //
       // On add le content ^^
@@ -622,17 +622,16 @@
         new Lightbox.base('lightbox', { externalControl : 'lb-close', closeOnOverlayClick : true });
           
       //
-      // Onrenvoie true car on a tout réussi =D   
+      // Onrenvoie true car on a tout rï¿½ussi =D   
         
         return true;     
         
-    }      
+    }
 
 
 /**
  * TOOLTIP
-*/
-
+ */
 const MAX_ECART_MOUSEMOVE_X = MAX_ECART_MOUSEMOVE_Y = 10;
 var divExist = false,
     callTimeout = containerPosition = null,
@@ -656,13 +655,13 @@ function ttInit(event, obj) {
 function ttTrig(event, obj) {
     var currentIdTooltip = getId(obj);
 
-    if (divExist) {
-        ttDisplay(currentIdTooltip, obj, event);
-    }
-    else callTimeout = setTimeout(function () {
+    if (divExist) ttDisplay(currentIdTooltip, obj, event);
+    else {
         obj.className = obj.getAttribute('data-ttClasse') + ' ttTrig';
-        ttDisplay(currentIdTooltip, obj, event);
-    }, 500);
+        callTimeout = setTimeout(function () {
+            ttDisplay(currentIdTooltip, obj, event);
+        }, 500);
+    }
 }
 
 function ttDisplay(idTooltip, obj, event) {
