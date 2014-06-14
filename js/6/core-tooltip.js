@@ -21,15 +21,12 @@ function ttInit(event, obj) {
 function ttTrig(event, obj) {
     var currentIdTooltip = getId(obj);
 
-    if (divExist) {
+    obj.className = obj.getAttribute('data-ttClasse') + ' ttTrig';
+
+    if (divExist) ttDisplay(currentIdTooltip, obj, event);
+    else callTimeout = setTimeout(function () {
         ttDisplay(currentIdTooltip, obj, event);
-    }
-    else {
-        obj.className = obj.getAttribute('data-ttClasse') + ' ttTrig';
-        callTimeout = setTimeout(function () {
-            ttDisplay(currentIdTooltip, obj, event);
-        }, 500);
-    }
+    }, 500);
 }
 
 function ttDisplay(idTooltip, obj, event) {
@@ -137,4 +134,3 @@ function getPosition(el) {
 
     return { top: coordTop, left: coordLeft, right: coordRight, bottom: coordBottom };
 }
-
